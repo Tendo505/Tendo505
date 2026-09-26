@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="217" viewBox="0 0 960 217" role="img" aria-labelledby="title desc">
 <title id="title">Languages in my public code</title>
-<desc id="desc">Kotlin 66.8%, Java 31.8%, C++ 1.4%</desc>
+<desc id="desc">Kotlin 67.0%, Java 31.6%, C++ 1.4%</desc>
 <rect width="960" height="217" rx="20" fill="#0d1728"/>
 <g font-family="Segoe UI,Arial,sans-serif">
 <text x="36" y="46" fill="#f8fafc" font-size="23" font-weight="600">Languages in my public code</text>
 <text x="36" y="73" fill="#94a3b8" font-size="14">3 public repositories · measured by code bytes</text>
 <defs><clipPath id="bar"><rect x="36" y="96" width="888" height="17" rx="8"/></clipPath></defs><g clip-path="url(#bar)">
-<rect x="36.000" y="96" width="593.718" height="17" fill="#a78bfa"/>
-<rect x="629.718" y="96" width="282.174" height="17" fill="#fb923c"/>
-<rect x="911.892" y="96" width="12.108" height="17" fill="#f472b6"/>
+<rect x="36.000" y="96" width="594.846" height="17" fill="#a78bfa"/>
+<rect x="630.846" y="96" width="281.092" height="17" fill="#fb923c"/>
+<rect x="911.938" y="96" width="12.062" height="17" fill="#f472b6"/>
 </g>
 <circle cx="41" cy="146" r="5" fill="#a78bfa"/>
 <text x="56" y="151" fill="#e2e8f0" font-size="16">Kotlin</text>
-<text x="295" y="151" fill="#cbd5e1" font-size="16" text-anchor="end">66.8%</text>
+<text x="295" y="151" fill="#cbd5e1" font-size="16" text-anchor="end">67.0%</text>
 <circle cx="337" cy="146" r="5" fill="#fb923c"/>
 <text x="352" y="151" fill="#e2e8f0" font-size="16">Java</text>
-<text x="591" y="151" fill="#cbd5e1" font-size="16" text-anchor="end">31.8%</text>
+<text x="591" y="151" fill="#cbd5e1" font-size="16" text-anchor="end">31.6%</text>
 <circle cx="633" cy="146" r="5" fill="#f472b6"/>
 <text x="648" y="151" fill="#e2e8f0" font-size="16">C++</text>
 <text x="887" y="151" fill="#cbd5e1" font-size="16" text-anchor="end">1.4%</text>
-<text x="36" y="197" fill="#94a3b8" font-size="12">Public code mix · includes archived coursework · updated 25 Sep 2026 UTC</text></g></svg>
+<text x="36" y="197" fill="#94a3b8" font-size="12">Public code mix · includes archived coursework · updated 26 Sep 2026 UTC</text></g></svg>

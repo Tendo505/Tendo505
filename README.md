@@ -59,7 +59,7 @@ Member-management workflows with create, read, update and delete operations, req
 <img src="assets/languages.svg" alt="Language percentages by code bytes across my public, non-fork repositories, including archived repositories" width="100%" />
 
 <!-- LANGUAGE_DATA_START -->
-**Kotlin 66.8%** · **Java 31.8%** · **C++ 1.4%**
+**Kotlin 67.0%** · **Java 31.6%** · **C++ 1.4%**
 <!-- LANGUAGE_DATA_END -->
 
 <sub>Calculated from GitHub's language byte counts across public, non-fork repositories, including archived coursework and excluding this profile repository. These percentages describe repository contents, not proficiency or personal authorship. GitHub may omit markup, generated or vendored files. The card refreshes daily, and some skills above may not appear in public repositories.</sub>
