@@ -6,8 +6,8 @@
 <text x="36" y="46" fill="#f8fafc" font-size="23" font-weight="600">Languages in my public code</text>
 <text x="36" y="73" fill="#94a3b8" font-size="14">3 public repositories · measured by code bytes</text>
 <defs><clipPath id="bar"><rect x="36" y="96" width="888" height="17" rx="8"/></clipPath></defs><g clip-path="url(#bar)">
-<rect x="36.000" y="96" width="600.757" height="17" fill="#a78bfa"/>
-<rect x="636.757" y="96" width="274.994" height="17" fill="#fb923c"/>
+<rect x="36.000" y="96" width="600.749" height="17" fill="#a78bfa"/>
+<rect x="636.749" y="96" width="275.002" height="17" fill="#fb923c"/>
 <rect x="911.751" y="96" width="12.249" height="17" fill="#f472b6"/>
 </g>
 <circle cx="41" cy="146" r="5" fill="#a78bfa"/>
@@ -19,4 +19,4 @@
 <circle cx="633" cy="146" r="5" fill="#f472b6"/>
 <text x="648" y="151" fill="#e2e8f0" font-size="16">C++</text>
 <text x="887" y="151" fill="#cbd5e1" font-size="16" text-anchor="end">1.4%</text>
-<text x="36" y="197" fill="#94a3b8" font-size="12">Public code mix · includes archived coursework · updated 29 Sep 2026 UTC</text></g></svg>
+<text x="36" y="197" fill="#94a3b8" font-size="12">Public code mix · includes archived coursework · updated 30 Sep 2026 UTC</text></g></svg>
