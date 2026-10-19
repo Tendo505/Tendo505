@@ -1,60 +1,57 @@
-<p align="center">
-  <img src="assets/header.svg" alt="Amirul Harith — Android and backend development" width="100%" />
-</p>
+<a href="mailto:amirulharith505@gmail.com"><img src="assets/header.svg" alt="Muhammad Amirul Harith — Android and backend developer, open for an internship from 30 November 2026 to 19 February 2027" width="100%" /></a>
 
 <p align="center">
-  <b>Computer Science diploma student · Android &amp; backend development · Malaysia</b><br />
-  Building practical applications with Kotlin, Java, Laravel and relational databases.
+  <a href="mailto:amirulharith505@gmail.com"><img alt="Email me" src="https://img.shields.io/badge/Email_me-amirulharith505@gmail.com-2dd4bf?style=for-the-badge&amp;logo=gmail&amp;logoColor=white&amp;labelColor=0b1220" /></a>
+  <a href="https://github.com/Tendo505?tab=repositories"><img alt="Explore my projects" src="https://img.shields.io/badge/Explore-my_projects-a78bfa?style=for-the-badge&amp;logo=github&amp;logoColor=white&amp;labelColor=0b1220" /></a>
+  <img alt="Based in Selangor, Malaysia" src="https://img.shields.io/badge/Based_in-Selangor,_MY-60a5fa?style=for-the-badge&amp;logo=googlemaps&amp;logoColor=white&amp;labelColor=0b1220" />
 </p>
 
-<p align="center">
-  <a href="https://github.com/Tendo505?tab=repositories"><img alt="Explore my projects" src="https://img.shields.io/badge/Explore_my_projects-2563EB?style=for-the-badge&amp;logo=github&amp;logoColor=white" /></a>
-  <img alt="Seeking a software engineering internship" src="https://img.shields.io/badge/Seeking_an_internship-0F766E?style=for-the-badge" />
-</p>
+<img src="assets/stats.svg" alt="CGPA 3.30 · Dean's List, Faculty of ICT, Semester 1 2025/2026 · 3 projects across Android and web · Available for a 3-month internship, 30 Nov 2026 – 19 Feb 2027" width="100%" />
 
-## A little about me
+## ⚡ About me
 
-Hi, I'm **Amirul Harith**. I'm pursuing a **Diploma in Computer Science at International Islamic College**, with an expected graduation in **March 2027**. My interests are Android apps, backend APIs and the databases that connect them.
+I'm **Muhammad Amirul Harith bin Zakaria**, a **Computer Science diploma student at International Islamic College** who likes building the *whole* path of an app — the **Android screen** in your hand, the **Laravel API** behind it and the **database** that keeps it all consistent.
 
-- **Currently focused on:** mobile development, REST API integration and relational database design.
-- **Looking for:** software engineering, backend or mobile development internship opportunities.
-- **Academic highlight:** Dean's List, Semester 1, Session 2025/2026.
-- **Languages:** Malay (native) and English (working proficiency).
+```kotlin
+object AmirulHarith {
+    val role        = "Computer Science diploma student · Android & backend developer"
+    val education   = "Diploma in Computer Science @ International Islamic College (CGPA 3.30)"
+    val award       = "Dean's List — Faculty of ICT, Semester 1, Session 2025/2026"
+    val stack       = listOf("Kotlin", "Java", "Laravel", "PostgreSQL", "REST APIs", "Retrofit")
+    val lookingFor  = "Software engineering, backend or mobile development internship"
+    val available   = "30 Nov 2026 → 19 Feb 2027 (3-month industrial training)"
+    val speaks      = listOf("Malay (native)", "English (working proficiency)")
+}
+```
 
-## My toolkit
+## 🚀 Featured builds
+
+<a href="https://github.com/Tendo505/PawCare"><img src="assets/project-pawcare.svg" alt="PawCare — full-stack pet management app with Kotlin, Laravel, PostgreSQL, REST APIs and Retrofit" width="100%" /></a>
 
 <p>
-  <a href="https://github.com/tandpfun/skill-icons"><img src="https://skillicons.dev/icons?i=kotlin,java,cpp,php,js,html,css,laravel,androidstudio,postgres,mysql,sqlite,git,github,postman,vscode&amp;perline=8" alt="Kotlin, Java, C++, PHP, JavaScript, HTML, CSS, Laravel, Android Studio, PostgreSQL, MySQL, SQLite, Git, GitHub, Postman and VS Code" /></a>
+  <a href="https://github.com/Tendo505/PhoneMarketTracker"><img src="assets/project-phonemarket.svg" alt="Phone Market Tracker — Android sales and inventory app with Java, XML and SQLite" width="49%" /></a>
+  <img src="assets/project-studentclub.svg" alt="Student Club Management System — group web project in PHP and MySQL" width="49%" />
 </p>
 
-| Area | Skills and tools |
+## 🛠️ Tech arsenal
+
+<p align="center">
+  <a href="https://github.com/tandpfun/skill-icons"><img src="https://skillicons.dev/icons?i=kotlin,java,cpp,php,js,html,css,laravel,androidstudio,postgres,mysql,sqlite,git,github,postman,vscode&amp;perline=8&amp;theme=dark" alt="Kotlin, Java, C++, PHP, JavaScript, HTML, CSS, Laravel, Android Studio, PostgreSQL, MySQL, SQLite, Git, GitHub, Postman and VS Code" /></a>
+</p>
+
+| | |
 | :--- | :--- |
-| Programming | Kotlin, Java, C++, PHP, JavaScript, SQL, HTML, CSS |
-| Android | Android Studio, XML layouts, Retrofit, mobile and backend integration |
-| Backend | Laravel, REST APIs, MVC architecture, CRUD development |
-| Databases | PostgreSQL, MySQL, SQLite, Microsoft Access, pgAdmin, relational database design |
-| Development tools | Git, GitHub, Postman, XAMPP, Visual Studio Code |
+| 📱 **Mobile** | Kotlin · Java · Android Studio · XML layouts · Retrofit |
+| ⚙️ **Backend** | Laravel · REST APIs · MVC architecture · CRUD services · PHP |
+| 🗄️ **Databases** | PostgreSQL · MySQL · SQLite · Microsoft Access · pgAdmin · relational design |
+| 🌐 **Web** | JavaScript · HTML · CSS |
+| 🧰 **Tools** | Git · GitHub · Postman · XAMPP · VS Code |
 
-These are technologies I've used through coursework and projects; I'm continuing to build depth through hands-on development.
+## 🧭 My journey
 
-## Featured projects
+<img src="assets/journey.svg" alt="Aug 2024: started Diploma in Computer Science · Sem 1 2025/26: Dean's List · 2025–2026: built 3 projects · Nov 2026 – Feb 2027: internship · Mar 2027: expected graduation" width="100%" />
 
-### 🐾 [PawCare](https://github.com/Tendo505/PawCare)
-**Pet health management · Kotlin · Laravel · PostgreSQL · REST APIs**
-
-A pet-care project covering pet profiles, health records, vaccinations, appointments and reminders. My work includes relational database design, Laravel MVC and CRUD services, and connecting the Android app to backend APIs using Retrofit.
-
-### 📱 [PhoneMarketTracker](https://github.com/Tendo505/PhoneMarketTracker)
-**Android phone-shop interface · Java · XML · Android Studio**
-
-The current public version demonstrates sign-in and sign-up screens, a product menu, a sales overview chart and cart navigation, with basic form validation. It is a front-end demonstration; authentication and persistent storage are not implemented in this published version.
-
-### 🎓 Student Club Management System
-**Group coursework · PHP · MySQL · HTML/CSS · XAMPP**
-
-Member-management workflows with create, read, update and delete operations, required-field validation and unique student IDs.
-
-## Languages in my public code
+## 📊 Languages in my public code
 
 <img src="assets/languages.svg" alt="Language percentages by code bytes across my public, non-fork repositories, including archived repositories" width="100%" />
 
@@ -62,10 +59,18 @@ Member-management workflows with create, read, update and delete operations, req
 **Kotlin 47.4%** · **PHP 36.6%** · **Java 14.8%** · **C++ 0.7%** · **Batchfile 0.3%** · **Dockerfile 0.2%**
 <!-- LANGUAGE_DATA_END -->
 
-<sub>Calculated from GitHub's language byte counts across public, non-fork repositories, including archived coursework and excluding this profile repository. These percentages describe repository contents, not proficiency or personal authorship. GitHub may omit markup, generated or vendored files. The card refreshes daily, and some skills above may not appear in public repositories.</sub>
+<sub>From GitHub's language byte counts across public, non-fork repositories (including archived coursework, excluding this profile repo). Refreshes daily.</sub>
 
----
+## 🐍 Contribution activity
 
-<p align="center"><b>Interested in my work?</b><br />Explore the projects above or browse <a href="https://github.com/Tendo505?tab=repositories">all my public repositories</a>.</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tendo505/Tendo505/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Tendo505/Tendo505/output/snake.svg" />
+  <img alt="Animated snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/Tendo505/Tendo505/output/snake-dark.svg" width="100%" />
+</picture>
 
-<sub>Skill icons by <a href="https://github.com/tandpfun/skill-icons">Skill Icons</a> · Badges by <a href="https://github.com/badges/shields">Shields</a> · Language card generated in this repository.</sub>
+<br />
+
+<a href="mailto:amirulharith505@gmail.com"><img src="assets/cta.svg" alt="Let's build something together. Hiring an intern for Nov 2026 – Feb 2027? Email amirulharith505@gmail.com" width="100%" /></a>
+
+<p align="center"><sub>Header, stats, project, journey and language cards hand-made in this repo · Skill icons by <a href="https://github.com/tandpfun/skill-icons">Skill Icons</a> · Badges by <a href="https://github.com/badges/shields">Shields</a> · Snake by <a href="https://github.com/Platane/snk">Platane/snk</a></sub></p>

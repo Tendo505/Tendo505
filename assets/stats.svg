@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="150" viewBox="0 0 960 150" role="img" aria-labelledby="title desc">
+<title id="title">At a glance</title>
+<desc id="desc">CGPA 3.30. Dean's List Award, Faculty of ICT, Semester 1 2025/2026. Three full projects across Android and web. Available for a three-month internship from 30 November 2026 to 19 February 2027.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0a1022"/><stop offset="1" stop-color="#0f1f3a"/></linearGradient>
+  <linearGradient id="g1" x2="1"><stop stop-color="#60a5fa"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+  <linearGradient id="g2" x2="1"><stop stop-color="#fbbf24"/><stop offset="1" stop-color="#fb923c"/></linearGradient>
+  <linearGradient id="g3" x2="1"><stop stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+  <linearGradient id="g4" x2="1"><stop stop-color="#2dd4bf"/><stop offset="1" stop-color="#22c55e"/></linearGradient>
+</defs>
+<style>
+  .t{font-family:'Segoe UI',Inter,Arial,sans-serif}
+  .tile{opacity:0;animation:pop .7s cubic-bezier(.2,.8,.2,1) forwards}
+  .a2{animation-delay:.15s}.a3{animation-delay:.3s}.a4{animation-delay:.45s}
+  @keyframes pop{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+  .bar{animation:fill 1.6s .5s cubic-bezier(.2,.8,.2,1) both}
+  @keyframes fill{from{transform:scaleX(0)}}
+  @media (prefers-reduced-motion:reduce){.tile,.bar{animation:none;opacity:1}}
+</style>
+<g class="t">
+  <g class="tile">
+    <rect x="1" y="1" width="228" height="148" rx="18" fill="url(#bg)" stroke="#1e3a5f" stroke-width="1.5"/>
+    <text x="24" y="38" fill="#94a3b8" font-size="12" letter-spacing="2.5">CGPA</text>
+    <text x="22" y="92" fill="url(#g1)" font-size="50" font-weight="800">3.30</text>
+    <rect x="24" y="114" width="180" height="6" rx="3" fill="#1e293b"/>
+    <rect class="bar" x="24" y="114" width="148.5" height="6" rx="3" fill="url(#g1)" style="transform-origin:24px 0"/>
+  </g>
+  <g class="tile a2" transform="translate(244 0)">
+    <rect x="1" y="1" width="228" height="148" rx="18" fill="url(#bg)" stroke="#1e3a5f" stroke-width="1.5"/>
+    <text x="24" y="38" fill="#94a3b8" font-size="12" letter-spacing="2.5">ACHIEVEMENT</text>
+    <text x="22" y="86" fill="url(#g2)" font-size="34" font-weight="800">Dean's List</text>
+    <text x="24" y="114" fill="#cbd5e1" font-size="13">Faculty of ICT</text>
+    <text x="24" y="132" fill="#64748b" font-size="12">Semester 1 · 2025/2026</text>
+    <path transform="translate(186 22)" d="M10 0l3 6.5 7 .8-5.2 4.8 1.4 7L10 15.6 3.8 19l1.4-7L0 7.3l7-.8z" fill="#fbbf24"/>
+  </g>
+  <g class="tile a3" transform="translate(488 0)">
+    <rect x="1" y="1" width="228" height="148" rx="18" fill="url(#bg)" stroke="#1e3a5f" stroke-width="1.5"/>
+    <text x="24" y="38" fill="#94a3b8" font-size="12" letter-spacing="2.5">PROJECTS BUILT</text>
+    <text x="22" y="92" fill="url(#g3)" font-size="50" font-weight="800">3</text>
+    <text x="60" y="78" fill="#cbd5e1" font-size="13">Android · Web</text>
+    <text x="60" y="96" fill="#cbd5e1" font-size="13">Backend · Databases</text>
+    <g fill="#a78bfa"><rect x="24" y="114" width="56" height="6" rx="3"/><rect x="86" y="114" width="56" height="6" rx="3" opacity=".7"/><rect x="148" y="114" width="56" height="6" rx="3" opacity=".45"/></g>
+  </g>
+  <g class="tile a4" transform="translate(732 0)">
+    <rect x="1" y="1" width="226" height="148" rx="18" fill="url(#bg)" stroke="#22c55e" stroke-opacity=".5" stroke-width="1.5"/>
+    <text x="24" y="38" fill="#86efac" font-size="12" letter-spacing="2.5">AVAILABLE</text>
+    <text x="22" y="84" fill="url(#g4)" font-size="30" font-weight="800">3-month</text>
+    <text x="24" y="108" fill="#f8fafc" font-size="16" font-weight="600">internship</text>
+    <text x="24" y="132" fill="#94a3b8" font-size="12">30 Nov 2026 – 19 Feb 2027</text>
+  </g>
+</g>
+</svg>
