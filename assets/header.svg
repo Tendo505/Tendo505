@@ -70,7 +70,7 @@
     <text x="88" y="246" fill="#f8fafc" class="role ro4">Dean's List CS student</text>
   </g>
   <g class="rise r5">
-    <text x="58" y="296" fill="#cbd5e1" font-size="17">Computer Science · International Islamic College · Selangor, Malaysia</text>
+    <text x="58" y="296" fill="#cbd5e1" font-size="17">Computer Science student · Selangor, Malaysia</text>
     <g font-size="13" font-weight="700" letter-spacing="1">
       <rect x="58" y="320" width="98" height="30" rx="8" fill="#a78bfa" fill-opacity=".14" stroke="#a78bfa" stroke-opacity=".5"/><text x="107" y="340" fill="#c4b5fd" text-anchor="middle">KOTLIN</text>
       <rect x="166" y="320" width="98" height="30" rx="8" fill="#f87171" fill-opacity=".14" stroke="#f87171" stroke-opacity=".5"/><text x="215" y="340" fill="#fca5a5" text-anchor="middle">LARAVEL</text>

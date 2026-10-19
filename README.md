@@ -10,12 +10,11 @@
 
 ## ⚡ About me
 
-I'm **Amirul Harith**, a **Computer Science student at International Islamic College** who likes building the *whole* path of an app — the **Android screen** in your hand, the **Laravel API** behind it and the **database** that keeps it all consistent.
+I'm **Amirul Harith**, a **Computer Science student** who likes building the *whole* path of an app — the **Android screen** in your hand, the **Laravel API** behind it and the **database** that keeps it all consistent.
 
 ```kotlin
 object AmirulHarith {
     val role        = "Computer Science student · Android & backend developer"
-    val education   = "Computer Science @ International Islamic College"
     val award       = "Dean's List — Faculty of ICT, Semester 1, Session 2025/2026"
     val stack       = listOf("Kotlin", "Java", "Laravel", "PostgreSQL", "REST APIs", "Retrofit")
     val lookingFor  = "Software engineering, backend or mobile development internship"
