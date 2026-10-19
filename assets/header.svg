@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img" aria-labelledby="title desc">
-<title id="title">Muhammad Amirul Harith</title>
-<desc id="desc">Android and backend developer. Computer Science diploma student, available for a software engineering internship from 30 November 2026 to 19 February 2027.</desc>
+<title id="title">Amirul Harith</title>
+<desc id="desc">Android and backend developer. Computer Science student, available for a software engineering internship from 30 November 2026 to 19 February 2027.</desc>
 <defs>
   <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#05070f"/><stop offset=".55" stop-color="#0a1330"/><stop offset="1" stop-color="#0b2a3f"/></linearGradient>
   <linearGradient id="name" x1="0" x2="1">
@@ -58,7 +58,7 @@
     <circle cx="78" cy="65" r="5" fill="#22c55e"/><circle class="ping" cx="78" cy="65" r="5" fill="#22c55e"/>
     <text x="94" y="70" fill="#86efac" font-size="13" font-weight="600" letter-spacing="1.2">OPEN FOR INTERNSHIP · NOV 2026 – FEB 2027</text>
   </g>
-  <text class="rise r2" x="58" y="126" fill="#94a3b8" font-size="15" letter-spacing="6">MUHAMMAD</text>
+  <text class="rise r2" x="58" y="126" fill="#94a3b8" font-size="15" letter-spacing="6">HI, I'M</text>
   <g class="rise r3" filter="url(#glow)">
     <text x="52" y="198" fill="url(#name)" font-size="70" font-weight="800" letter-spacing="-1">AMIRUL HARITH</text>
   </g>

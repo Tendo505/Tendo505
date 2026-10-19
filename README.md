@@ -1,4 +1,4 @@
-<a href="mailto:amirulharith505@gmail.com"><img src="assets/header.svg" alt="Muhammad Amirul Harith — Android and backend developer, open for an internship from 30 November 2026 to 19 February 2027" width="100%" /></a>
+<a href="mailto:amirulharith505@gmail.com"><img src="assets/header.svg" alt="Amirul Harith — Android and backend developer, open for an internship from 30 November 2026 to 19 February 2027" width="100%" /></a>
 
 <p align="center">
   <a href="mailto:amirulharith505@gmail.com"><img alt="Email me" src="https://img.shields.io/badge/Email_me-amirulharith505@gmail.com-2dd4bf?style=for-the-badge&amp;logo=gmail&amp;logoColor=white&amp;labelColor=0b1220" /></a>
@@ -6,16 +6,16 @@
   <img alt="Based in Selangor, Malaysia" src="https://img.shields.io/badge/Based_in-Selangor,_MY-60a5fa?style=for-the-badge&amp;logo=googlemaps&amp;logoColor=white&amp;labelColor=0b1220" />
 </p>
 
-<img src="assets/stats.svg" alt="CGPA 3.30 · Dean's List, Faculty of ICT, Semester 1 2025/2026 · 3 projects across Android and web · Available for a 3-month internship, 30 Nov 2026 – 19 Feb 2027" width="100%" />
+<img src="assets/stats.svg" alt="Dean's List, Faculty of ICT, Semester 1 2025/2026 · 3 projects across Android and web · Available for a 3-month internship, 30 Nov 2026 – 19 Feb 2027" width="100%" />
 
 ## ⚡ About me
 
-I'm **Muhammad Amirul Harith bin Zakaria**, a **Computer Science diploma student at International Islamic College** who likes building the *whole* path of an app — the **Android screen** in your hand, the **Laravel API** behind it and the **database** that keeps it all consistent.
+I'm **Amirul Harith**, a **Computer Science student at International Islamic College** who likes building the *whole* path of an app — the **Android screen** in your hand, the **Laravel API** behind it and the **database** that keeps it all consistent.
 
 ```kotlin
 object AmirulHarith {
-    val role        = "Computer Science diploma student · Android & backend developer"
-    val education   = "Diploma in Computer Science @ International Islamic College (CGPA 3.30)"
+    val role        = "Computer Science student · Android & backend developer"
+    val education   = "Computer Science @ International Islamic College"
     val award       = "Dean's List — Faculty of ICT, Semester 1, Session 2025/2026"
     val stack       = listOf("Kotlin", "Java", "Laravel", "PostgreSQL", "REST APIs", "Retrofit")
     val lookingFor  = "Software engineering, backend or mobile development internship"
@@ -47,10 +47,6 @@ object AmirulHarith {
 | 🌐 **Web** | JavaScript · HTML · CSS |
 | 🧰 **Tools** | Git · GitHub · Postman · XAMPP · VS Code |
 
-## 🧭 My journey
-
-<img src="assets/journey.svg" alt="Aug 2024: started Diploma in Computer Science · Sem 1 2025/26: Dean's List · 2025–2026: built 3 projects · Nov 2026 – Feb 2027: internship · Mar 2027: expected graduation" width="100%" />
-
 ## 📊 Languages in my public code
 
 <img src="assets/languages.svg" alt="Language percentages by code bytes across my public, non-fork repositories, including archived repositories" width="100%" />
@@ -73,4 +69,4 @@ object AmirulHarith {
 
 <a href="mailto:amirulharith505@gmail.com"><img src="assets/cta.svg" alt="Let's build something together. Hiring an intern for Nov 2026 – Feb 2027? Email amirulharith505@gmail.com" width="100%" /></a>
 
-<p align="center"><sub>Header, stats, project, journey and language cards hand-made in this repo · Skill icons by <a href="https://github.com/tandpfun/skill-icons">Skill Icons</a> · Badges by <a href="https://github.com/badges/shields">Shields</a> · Snake by <a href="https://github.com/Platane/snk">Platane/snk</a></sub></p>
+<p align="center"><sub>Header, stats, project and language cards hand-made in this repo · Skill icons by <a href="https://github.com/tandpfun/skill-icons">Skill Icons</a> · Badges by <a href="https://github.com/badges/shields">Shields</a> · Snake by <a href="https://github.com/Platane/snk">Platane/snk</a></sub></p>
