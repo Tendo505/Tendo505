@@ -1,34 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="303" viewBox="0 0 960 303" role="img" aria-labelledby="title desc">
 <title id="title">Languages in my public code</title>
-<desc id="desc">Kotlin 47.4%, PHP 36.6%, Java 14.8%, C++ 0.7%, Batchfile 0.3%, Dockerfile 0.2%</desc>
-<rect width="960" height="260" rx="20" fill="#0d1728"/>
+<desc id="desc">Kotlin 42.3%, PHP 32.6%, Java 13.2%, Python 10.8%, C++ 0.6%, Dockerfile 0.3%, Batchfile 0.2%</desc>
+<rect width="960" height="303" rx="20" fill="#0d1728"/>
 <g font-family="Segoe UI,Arial,sans-serif">
 <text x="36" y="46" fill="#f8fafc" font-size="23" font-weight="600">Languages in my public code</text>
 <text x="36" y="73" fill="#94a3b8" font-size="14">3 public repositories · measured by code bytes</text>
 <defs><clipPath id="bar"><rect x="36" y="96" width="888" height="17" rx="8"/></clipPath></defs><g clip-path="url(#bar)">
-<rect x="36.000" y="96" width="420.934" height="17" fill="#a78bfa"/>
-<rect x="456.934" y="96" width="325.448" height="17" fill="#818cf8"/>
-<rect x="782.382" y="96" width="131.629" height="17" fill="#fb923c"/>
-<rect x="914.011" y="96" width="5.863" height="17" fill="#f472b6"/>
-<rect x="919.874" y="96" width="2.240" height="17" fill="#2dd4bf"/>
-<rect x="922.114" y="96" width="1.886" height="17" fill="#2dd4bf"/>
+<rect x="36.000" y="96" width="376.208" height="17" fill="#a78bfa"/>
+<rect x="412.208" y="96" width="289.313" height="17" fill="#818cf8"/>
+<rect x="701.522" y="96" width="117.014" height="17" fill="#fb923c"/>
+<rect x="818.536" y="96" width="95.834" height="17" fill="#60a5fa"/>
+<rect x="914.370" y="96" width="5.212" height="17" fill="#f472b6"/>
+<rect x="919.582" y="96" width="2.426" height="17" fill="#2dd4bf"/>
+<rect x="922.008" y="96" width="1.992" height="17" fill="#2dd4bf"/>
 </g>
 <circle cx="41" cy="146" r="5" fill="#a78bfa"/>
 <text x="56" y="151" fill="#e2e8f0" font-size="16">Kotlin</text>
-<text x="295" y="151" fill="#cbd5e1" font-size="16" text-anchor="end">47.4%</text>
+<text x="295" y="151" fill="#cbd5e1" font-size="16" text-anchor="end">42.3%</text>
 <circle cx="337" cy="146" r="5" fill="#818cf8"/>
 <text x="352" y="151" fill="#e2e8f0" font-size="16">PHP</text>
-<text x="591" y="151" fill="#cbd5e1" font-size="16" text-anchor="end">36.6%</text>
+<text x="591" y="151" fill="#cbd5e1" font-size="16" text-anchor="end">32.6%</text>
 <circle cx="633" cy="146" r="5" fill="#fb923c"/>
 <text x="648" y="151" fill="#e2e8f0" font-size="16">Java</text>
-<text x="887" y="151" fill="#cbd5e1" font-size="16" text-anchor="end">14.8%</text>
-<circle cx="41" cy="189" r="5" fill="#f472b6"/>
-<text x="56" y="194" fill="#e2e8f0" font-size="16">C++</text>
-<text x="295" y="194" fill="#cbd5e1" font-size="16" text-anchor="end">0.7%</text>
-<circle cx="337" cy="189" r="5" fill="#2dd4bf"/>
-<text x="352" y="194" fill="#e2e8f0" font-size="16">Batchfile</text>
-<text x="591" y="194" fill="#cbd5e1" font-size="16" text-anchor="end">0.3%</text>
+<text x="887" y="151" fill="#cbd5e1" font-size="16" text-anchor="end">13.2%</text>
+<circle cx="41" cy="189" r="5" fill="#60a5fa"/>
+<text x="56" y="194" fill="#e2e8f0" font-size="16">Python</text>
+<text x="295" y="194" fill="#cbd5e1" font-size="16" text-anchor="end">10.8%</text>
+<circle cx="337" cy="189" r="5" fill="#f472b6"/>
+<text x="352" y="194" fill="#e2e8f0" font-size="16">C++</text>
+<text x="591" y="194" fill="#cbd5e1" font-size="16" text-anchor="end">0.6%</text>
 <circle cx="633" cy="189" r="5" fill="#2dd4bf"/>
 <text x="648" y="194" fill="#e2e8f0" font-size="16">Dockerfile</text>
-<text x="887" y="194" fill="#cbd5e1" font-size="16" text-anchor="end">0.2%</text>
-<text x="36" y="240" fill="#94a3b8" font-size="12">Public code mix · includes archived coursework · updated 19 Oct 2026 UTC</text></g></svg>
+<text x="887" y="194" fill="#cbd5e1" font-size="16" text-anchor="end">0.3%</text>
+<circle cx="41" cy="232" r="5" fill="#2dd4bf"/>
+<text x="56" y="237" fill="#e2e8f0" font-size="16">Batchfile</text>
+<text x="295" y="237" fill="#cbd5e1" font-size="16" text-anchor="end">0.2%</text>
+<text x="36" y="283" fill="#94a3b8" font-size="12">Public code mix · includes archived coursework · updated 20 Oct 2026 UTC</text></g></svg>
