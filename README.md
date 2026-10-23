@@ -6,7 +6,7 @@
   <img alt="Based in Selangor, Malaysia" src="https://img.shields.io/badge/Based_in-Selangor,_MY-60a5fa?style=for-the-badge&amp;logo=googlemaps&amp;logoColor=white&amp;labelColor=0b1220" />
 </p>
 
-<img src="assets/stats.svg" alt="Dean's List, Faculty of ICT, Semester 1 2025/2026 · 11 projects across Android, backend, web and systems · Available for a 3-month internship, 30 Nov 2026 – 19 Feb 2027" width="100%" />
+<img src="assets/stats.svg" alt="Dean's List, Faculty of ICT, Semester 1 2025/2026 · 12 projects across Android, backend, web and systems · Available for a 3-month internship, 30 Nov 2026 – 19 Feb 2027" width="100%" />
 
 ## ⚡ About me
 
@@ -30,24 +30,27 @@ object AmirulHarith {
 <a href="https://github.com/Tendo505/PawCare"><img src="assets/project-pawcare.svg" alt="PawCare — full-stack pet management app with Kotlin, Laravel, PostgreSQL, REST APIs and Retrofit" width="100%" /></a>
 
 <p>
+  <a href="https://github.com/Tendo505/tandem"><img src="assets/project-tandem.svg" alt="Tandem — offline-first shared lists for Android that merge without conflicts, with a Ktor and PostgreSQL sync server built on a CRDT" width="49%" /></a>
   <a href="https://github.com/Tendo505/seatlock"><img src="assets/project-seatlock.svg" alt="SeatLock — ticket booking API in Kotlin, Spring Boot and PostgreSQL that never oversells under concurrent load" width="49%" /></a>
+</p>
+<p>
   <a href="https://github.com/Tendo505/seatlock-android"><img src="assets/project-seatlock-android.svg" alt="SeatLock Android — Jetpack Compose ticket booking app with live seat holds" width="49%" /></a>
-</p>
-<p>
   <a href="https://github.com/Tendo505/quill"><img src="assets/project-quill.svg" alt="Quill — a scripting language with a Pratt parser and interpreter in TypeScript, with a browser playground" width="49%" /></a>
+</p>
+<p>
   <a href="https://github.com/Tendo505/tally"><img src="assets/project-tally.svg" alt="Tally — React and TypeScript expense splitter with a property-tested settle-up algorithm" width="49%" /></a>
-</p>
-<p>
   <a href="https://github.com/Tendo505/emberkv"><img src="assets/project-emberkv.svg" alt="emberkv — a Redis-compatible database written from scratch in Node.js" width="49%" /></a>
-  <a href="https://github.com/Tendo505/typeflow"><img src="assets/project-typeflow.svg" alt="TypeFlow — typing speed test in vanilla JavaScript with a canvas chart" width="49%" /></a>
 </p>
 <p>
+  <a href="https://github.com/Tendo505/typeflow"><img src="assets/project-typeflow.svg" alt="TypeFlow — typing speed test in vanilla JavaScript with a canvas chart" width="49%" /></a>
   <a href="https://github.com/Tendo505/PhoneMarketTracker"><img src="assets/project-phonemarket.svg" alt="Phone Market Tracker — Android sales and inventory app with Java, XML and SQLite" width="49%" /></a>
+</p>
+<p>
   <a href="https://github.com/Tendo505/banking-app"><img src="assets/project-bankingapp.svg" alt="Banking App — Spring Boot and Thymeleaf banking web app with Spring Security" width="49%" /></a>
+  <a href="https://github.com/Tendo505/java"><img src="assets/project-java-practice.svg" alt="Java Practice — my Java learning journey, around 140 exercises organised by topic" width="49%" /></a>
 </p>
 <p>
   <img src="assets/project-studentclub.svg" alt="Student Club Management System — group web project in PHP and MySQL" width="49%" />
-  <a href="https://github.com/Tendo505/java"><img src="assets/project-java-practice.svg" alt="Java Practice — my Java learning journey, around 140 exercises organised by topic" width="49%" /></a>
 </p>
 
 ### 🌐 Try them live
@@ -55,6 +58,7 @@ object AmirulHarith {
 | Project | Link |
 | :--- | :--- |
 | 🧭 RoadPulse (Android) | [Download the APK](https://github.com/Tendo505/roadpulse/releases/latest) |
+| 🔁 Tandem (Android) | [Download the APK](https://github.com/Tendo505/tandem/releases/latest) |
 | 📲 SeatLock (Android) | [Download the APK](https://github.com/Tendo505/seatlock-android/releases/latest) |
 | 🪶 Quill playground | [tendo505.github.io/quill](https://tendo505.github.io/quill/) |
 | 💸 Tally | [tendo505.github.io/tally](https://tendo505.github.io/tally/) |

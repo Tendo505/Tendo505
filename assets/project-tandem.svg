@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="290" viewBox="0 0 470 290" role="img" aria-labelledby="title desc">
+<title id="title">Tandem</title>
+<desc id="desc">Shared lists that work offline and merge without conflicts: an Android app in Kotlin, Compose, Room and WorkManager plus a Ktor and PostgreSQL sync server, built on a CRDT with hybrid logical clocks.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#061a18"/><stop offset=".5" stop-color="#0d1728"/><stop offset="1" stop-color="#10233d"/></linearGradient>
+  <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#2dd4bf"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#2dd4bf"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;0 0" dur="5s" repeatCount="indefinite"/></linearGradient>
+</defs>
+<style>
+  .t{font-family:'Segoe UI',Inter,Arial,sans-serif}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="1" y="1" width="468" height="288" rx="20" fill="url(#bg)"/>
+<rect x="1.25" y="1.25" width="467.5" height="287.5" rx="19.75" fill="none" stroke="url(#edge)" stroke-opacity=".8" stroke-width="2"/>
+<g class="t">
+  <text x="28" y="42" fill="#2dd4bf" font-size="11" font-weight="700" letter-spacing="2.5">ANDROID · OFFLINE SYNC</text>
+  <text x="28" y="78" fill="#f8fafc" font-size="25" font-weight="800">🔁 Tandem</text>
+  <g font-size="13.5" fill="#cbd5e1">
+    <text x="28" y="110"><tspan fill="#2dd4bf">▸</tspan> Edit offline on two phones, merge with no conflicts</text>
+    <text x="28" y="134"><tspan fill="#2dd4bf">▸</tspan> CRDT + hybrid logical clocks + fractional index</text>
+    <text x="28" y="158"><tspan fill="#2dd4bf">▸</tspan> Convergence property tests · Postgres CI · APK</text>
+  </g>
+  <g font-size="12" font-weight="700">
+    <rect x="28" y="226" width="67" height="24" rx="12" fill="#a78bfa" fill-opacity=".15" stroke="#a78bfa" stroke-opacity=".55"/><text x="61.5" y="242" fill="#c4b5fd" text-anchor="middle">Kotlin</text>
+    <rect x="101" y="226" width="131" height="24" rx="12" fill="#4ade80" fill-opacity=".15" stroke="#4ade80" stroke-opacity=".55"/><text x="166.5" y="242" fill="#86efac" text-anchor="middle">Jetpack Compose</text>
+    <rect x="238" y="226" width="52" height="24" rx="12" fill="#2dd4bf" fill-opacity=".15" stroke="#2dd4bf" stroke-opacity=".55"/><text x="264" y="242" fill="#5eead4" text-anchor="middle">Room</text>
+    <rect x="296" y="226" width="52" height="24" rx="12" fill="#a78bfa" fill-opacity=".15" stroke="#a78bfa" stroke-opacity=".55"/><text x="322" y="242" fill="#c4b5fd" text-anchor="middle">Ktor</text>
+    <rect x="354" y="226" width="52" height="24" rx="12" fill="#fbbf24" fill-opacity=".15" stroke="#fbbf24" stroke-opacity=".55"/><text x="380" y="242" fill="#fcd34d" text-anchor="middle">CRDT</text>
+  </g>
+  <text x="440" y="270" fill="#2dd4bf" font-size="12" font-weight="700" text-anchor="end">View repo →</text>
+</g>
+<g transform="translate(350 168)">
+  <g fill="none" stroke="#2dd4bf" stroke-width="2"><rect x="0" y="14" width="24" height="40" rx="5"/><rect x="66" y="14" width="24" height="40" rx="5"/><path d="M28 26h34M62 42h-34" stroke-dasharray="4 4"><animate attributeName="stroke-dashoffset" values="16;0" dur="1s" repeatCount="indefinite"/></path></g><g fill="#2dd4bf"><rect x="6" y="24" width="12" height="3" rx="1.5"/><rect x="6" y="32" width="9" height="3" rx="1.5"/><rect x="72" y="24" width="12" height="3" rx="1.5"/><rect x="72" y="32" width="9" height="3" rx="1.5"><animate attributeName="opacity" values="0;1" dur="2s" repeatCount="indefinite"/></rect></g>
+</g>
+</svg>
