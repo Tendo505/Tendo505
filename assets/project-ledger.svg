@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="290" viewBox="0 0 470 290" role="img" aria-labelledby="title desc">
+<title id="title">Ledger</title>
+<desc id="desc">A double-entry payments ledger API in Java 21 and Spring Boot: transfers that can't overdraw or deadlock, idempotency keys, card-style holds, HMAC-signed webhooks through a transactional outbox, and a self-audit, tested on PostgreSQL.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#06180d"/><stop offset=".5" stop-color="#0d1728"/><stop offset="1" stop-color="#10233d"/></linearGradient>
+  <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#4ade80"/><stop offset=".5" stop-color="#fbbf24"/><stop offset="1" stop-color="#4ade80"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;0 0" dur="5s" repeatCount="indefinite"/></linearGradient>
+</defs>
+<style>
+  .t{font-family:'Segoe UI',Inter,Arial,sans-serif}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="1" y="1" width="468" height="288" rx="20" fill="url(#bg)"/>
+<rect x="1.25" y="1.25" width="467.5" height="287.5" rx="19.75" fill="none" stroke="url(#edge)" stroke-opacity=".8" stroke-width="2"/>
+<g class="t">
+  <text x="28" y="42" fill="#4ade80" font-size="11" font-weight="700" letter-spacing="2.5">BACKEND · SPRING BOOT</text>
+  <text x="28" y="78" fill="#f8fafc" font-size="25" font-weight="800">🧾 Ledger</text>
+  <g font-size="13.5" fill="#cbd5e1">
+    <text x="28" y="110"><tspan fill="#4ade80">▸</tspan> Double entry; ordered row locks, no overdrafts</text>
+    <text x="28" y="134"><tspan fill="#4ade80">▸</tspan> Idempotency keys: 20 racing retries pay once</text>
+    <text x="28" y="158"><tspan fill="#4ade80">▸</tspan> Holds, signed webhooks via outbox, self-audit</text>
+  </g>
+  <g font-size="12" font-weight="700">
+    <rect x="28" y="226" width="74" height="24" rx="12" fill="#fb923c" fill-opacity=".15" stroke="#fb923c" stroke-opacity=".55"/><text x="65" y="242" fill="#fdba74" text-anchor="middle">Java 21</text>
+    <rect x="108" y="226" width="102" height="24" rx="12" fill="#4ade80" fill-opacity=".15" stroke="#4ade80" stroke-opacity=".55"/><text x="159" y="242" fill="#86efac" text-anchor="middle">Spring Boot</text>
+    <rect x="216" y="226" width="95" height="24" rx="12" fill="#60a5fa" fill-opacity=".15" stroke="#60a5fa" stroke-opacity=".55"/><text x="263.5" y="242" fill="#93c5fd" text-anchor="middle">PostgreSQL</text>
+    <rect x="317" y="226" width="102" height="24" rx="12" fill="#fbbf24" fill-opacity=".15" stroke="#fbbf24" stroke-opacity=".55"/><text x="368" y="242" fill="#fcd34d" text-anchor="middle">Idempotency</text>
+  </g>
+  <text x="440" y="270" fill="#4ade80" font-size="12" font-weight="700" text-anchor="end">View repo →</text>
+</g>
+<g transform="translate(350 168)">
+  <g fill="#4ade80"><rect x="6" y="4" width="30" height="34" rx="4" opacity=".3"/><rect x="54" y="4" width="30" height="34" rx="4" opacity=".3"/><text x="21" y="27" text-anchor="middle" font-family="Consolas,monospace" font-size="16" font-weight="700" fill="#e2e8f0">−</text><text x="69" y="27" text-anchor="middle" font-family="Consolas,monospace" font-size="16" font-weight="700" fill="#e2e8f0">+</text><circle cy="21" r="3.5"><animate attributeName="cx" values="21;69" dur="1.6s" repeatCount="indefinite"/></circle><text x="45" y="52" text-anchor="middle" font-family="Consolas,monospace" font-size="11">Σ = 0</text></g>
+</g>
+</svg>

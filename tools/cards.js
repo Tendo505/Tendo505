@@ -14,7 +14,7 @@ const PILL_COLORS = {
   Kotlin: "#a78bfa", Java: "#fb923c", "Spring Boot": "#4ade80", PostgreSQL: "#60a5fa", Docker: "#38bdf8",
   "Jetpack Compose": "#4ade80", Retrofit: "#fbbf24", TypeScript: "#60a5fa", React: "#38bdf8", Vite: "#a78bfa",
   "Node.js": "#4ade80", "Vanilla JS": "#fbbf24", Canvas: "#f472b6", Thymeleaf: "#4ade80", "Spring Security": "#2dd4bf",
-  Maven: "#f87171", Swing: "#fb923c", OOP: "#a78bfa", "C++": "#60a5fa", Vitest: "#fbbf24", "GitHub Pages": "#cbd5e1", Ktor: "#a78bfa", Room: "#2dd4bf", CRDT: "#fbbf24", "Kotlin Multiplatform": "#f472b6", "Kotlin/JS": "#fbbf24", BM25: "#60a5fa", "Java 21": "#fb923c", "JUnit 5": "#4ade80", Raft: "#a78bfa", "Simulation testing": "#2dd4bf", "LSM tree": "#38bdf8", "Bloom filters": "#a78bfa", "Crash testing": "#f87171",
+  Maven: "#f87171", Swing: "#fb923c", OOP: "#a78bfa", "C++": "#60a5fa", Vitest: "#fbbf24", "GitHub Pages": "#cbd5e1", Ktor: "#a78bfa", Room: "#2dd4bf", CRDT: "#fbbf24", "Kotlin Multiplatform": "#f472b6", "Kotlin/JS": "#fbbf24", BM25: "#60a5fa", "Java 21": "#fb923c", "JUnit 5": "#4ade80", Raft: "#a78bfa", "Simulation testing": "#2dd4bf", "LSM tree": "#38bdf8", "Bloom filters": "#a78bfa", "Crash testing": "#f87171", Webhooks: "#f472b6", Idempotency: "#fbbf24",
 };
 const lighten = { "#a78bfa": "#c4b5fd", "#fb923c": "#fdba74", "#4ade80": "#86efac", "#60a5fa": "#93c5fd", "#38bdf8": "#7dd3fc",
   "#fbbf24": "#fcd34d", "#f472b6": "#f9a8d4", "#2dd4bf": "#5eead4", "#f87171": "#fca5a5", "#cbd5e1": "#e2e8f0" };
@@ -55,11 +55,17 @@ const MOTIFS = {
   cluster: a => { const pts = [0, 1, 2, 3, 4].map(i => [45 + 24 * Math.cos(-Math.PI / 2 + i * 2 * Math.PI / 5), 24 + 24 * Math.sin(-Math.PI / 2 + i * 2 * Math.PI / 5)]); return `<g stroke="${a}" stroke-opacity=".35" stroke-width="1.5">${pts.slice(1).map(([x, y]) => `<line x1="${pts[0][0]}" y1="${pts[0][1]}" x2="${x}" y2="${y}"/>`).join("")}</g>${pts.map(([x, y], i) => `<circle cx="${x}" cy="${y}" r="${i ? 6 : 8}" fill="${a}" opacity="${i ? ".55" : "1"}"/>`).join("")}${pts.slice(1).map(([x, y]) => `<circle r="2.5" fill="${a}"><animate attributeName="cx" values="${pts[0][0]};${x}" dur="1.2s" repeatCount="indefinite"/><animate attributeName="cy" values="${pts[0][1]};${y}" dur="1.2s" repeatCount="indefinite"/></circle>`).join("")}`; },
   // LSM levels: a pyramid of runs, each wider than the last, with a block sinking from one level to the next.
   levels: a => `<g fill="${a}">${[[30, 0, 24], [18, 18, 48], [6, 36, 72]].map(([x, y, w], i) => `<rect x="${x}" y="${y}" width="${w}" height="10" rx="3" opacity="${0.45 + i * 0.2}"/>`).join("")}<rect x="38" y="0" width="8" height="10" rx="2" fill="#fff" opacity=".9"><animate attributeName="y" values="0;18;36;36" keyTimes="0;.4;.8;1" dur="2.4s" repeatCount="indefinite"/></rect></g>`,
+  // Double entry: a debit and a credit that always balance, with money moving between them.
+  balance: a => `<g fill="${a}"><rect x="6" y="4" width="30" height="34" rx="4" opacity=".3"/><rect x="54" y="4" width="30" height="34" rx="4" opacity=".3"/><text x="21" y="27" text-anchor="middle" font-family="Consolas,monospace" font-size="16" font-weight="700" fill="#e2e8f0">−</text><text x="69" y="27" text-anchor="middle" font-family="Consolas,monospace" font-size="16" font-weight="700" fill="#e2e8f0">+</text><circle cy="21" r="3.5"><animate attributeName="cx" values="21;69" dur="1.6s" repeatCount="indefinite"/></circle><text x="45" y="52" text-anchor="middle" font-family="Consolas,monospace" font-size="11">Σ = 0</text></g>`,
   // Stacked books.
   books: a => `<g fill="${a}"><rect x="10" y="40" width="64" height="12" rx="3" opacity=".9"/><rect x="16" y="26" width="56" height="12" rx="3" opacity=".7"/><rect x="6" y="12" width="60" height="12" rx="3" opacity=".5"><animateTransform attributeName="transform" type="translate" values="0 -6;0 0" dur="1.2s" fill="freeze"/></rect></g>`,
 };
 
 const cards = [
+  { file: "project-ledger.svg", title: "Ledger", emoji: "🧾", label: "BACKEND · SPRING BOOT", accent: "#4ade80", edge2: "#fbbf24", bg0: "#06180d",
+    desc: "A double-entry payments ledger API in Java 21 and Spring Boot: transfers that can't overdraw or deadlock, idempotency keys, card-style holds, HMAC-signed webhooks through a transactional outbox, and a self-audit, tested on PostgreSQL.",
+    bullets: ["Double entry; ordered row locks, no overdrafts", "Idempotency keys: 20 racing retries pay once", "Holds, signed webhooks via outbox, self-audit"],
+    pills: ["Java 21", "Spring Boot", "PostgreSQL", "Idempotency"], motif: "balance" },
   { file: "project-strata.svg", title: "Strata", emoji: "🗄️", label: "STORAGE ENGINE · JAVA", accent: "#38bdf8", edge2: "#fb923c", bg0: "#06141f",
     desc: "An LSM-tree key-value store written from scratch in Java 21: write-ahead log, skip-list memtable, SSTables with Bloom filters, leveled compaction and crash recovery, tested against a model and by killing the writing process mid-write.",
     bullets: ["WAL, memtable, SSTables, leveled compaction", "Survives kill -9 mid-flush and mid-compaction", "130k reads/s · model-based + concurrency tests"],
