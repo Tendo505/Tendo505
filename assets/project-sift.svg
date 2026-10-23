@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="290" viewBox="0 0 470 290" role="img" aria-labelledby="title desc">
+<title id="title">Sift</title>
+<desc id="desc">A full-text search engine written from scratch in Kotlin Multiplatform: BM25 ranking, Porter stemming, typo tolerance, phrases and search-as-you-type. Runs on the JVM as a REST API and in the browser as a live demo.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#1c0a16"/><stop offset=".5" stop-color="#0d1728"/><stop offset="1" stop-color="#10233d"/></linearGradient>
+  <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#f472b6"/><stop offset=".5" stop-color="#fbbf24"/><stop offset="1" stop-color="#f472b6"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;0 0" dur="5s" repeatCount="indefinite"/></linearGradient>
+</defs>
+<style>
+  .t{font-family:'Segoe UI',Inter,Arial,sans-serif}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="1" y="1" width="468" height="288" rx="20" fill="url(#bg)"/>
+<rect x="1.25" y="1.25" width="467.5" height="287.5" rx="19.75" fill="none" stroke="url(#edge)" stroke-opacity=".8" stroke-width="2"/>
+<g class="t">
+  <text x="28" y="42" fill="#f472b6" font-size="11" font-weight="700" letter-spacing="2.5">SEARCH ENGINE · FROM SCRATCH</text>
+  <text x="28" y="78" fill="#f8fafc" font-size="25" font-weight="800">🔎 Sift</text>
+  <g font-size="13.5" fill="#cbd5e1">
+    <text x="28" y="110"><tspan fill="#f472b6">▸</tspan> BM25, Porter stemmer, phrases, snippets</text>
+    <text x="28" y="134"><tspan fill="#f472b6">▸</tspan> Typo tolerance via trie + edit distance</text>
+    <text x="28" y="158"><tspan fill="#f472b6">▸</tspan> Same engine on JVM + in-browser · ~0.4 ms p50</text>
+  </g>
+  <g font-size="12" font-weight="700">
+    <rect x="28" y="226" width="166" height="24" rx="12" fill="#f472b6" fill-opacity=".15" stroke="#f472b6" stroke-opacity=".55"/><text x="111" y="242" fill="#f9a8d4" text-anchor="middle">Kotlin Multiplatform</text>
+    <rect x="200" y="226" width="88" height="24" rx="12" fill="#fbbf24" fill-opacity=".15" stroke="#fbbf24" stroke-opacity=".55"/><text x="244" y="242" fill="#fcd34d" text-anchor="middle">Kotlin/JS</text>
+    <rect x="294" y="226" width="52" height="24" rx="12" fill="#a78bfa" fill-opacity=".15" stroke="#a78bfa" stroke-opacity=".55"/><text x="320" y="242" fill="#c4b5fd" text-anchor="middle">Ktor</text>
+    <rect x="352" y="226" width="52" height="24" rx="12" fill="#60a5fa" fill-opacity=".15" stroke="#60a5fa" stroke-opacity=".55"/><text x="378" y="242" fill="#93c5fd" text-anchor="middle">BM25</text>
+  </g>
+  <text x="440" y="270" fill="#f472b6" font-size="12" font-weight="700" text-anchor="end">View repo →</text>
+</g>
+<g transform="translate(350 168)">
+  <g fill="#f472b6"><rect x="0" y="4" width="70" height="5" rx="2.5" opacity=".3"/><rect x="0" y="17" width="56" height="5" rx="2.5" opacity=".95"/><rect x="0" y="30" width="64" height="5" rx="2.5" opacity=".3"/><rect x="0" y="43" width="44" height="5" rx="2.5" opacity=".3"/></g><g fill="none" stroke="#f472b6" stroke-width="3"><circle cx="58" cy="26" r="13"/><path d="M68 36l12 12" stroke-linecap="round"/><animateTransform attributeName="transform" type="translate" values="-30 0;0 0;-30 0" dur="4s" repeatCount="indefinite"/></g>
+</g>
+</svg>

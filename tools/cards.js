@@ -14,7 +14,7 @@ const PILL_COLORS = {
   Kotlin: "#a78bfa", Java: "#fb923c", "Spring Boot": "#4ade80", PostgreSQL: "#60a5fa", Docker: "#38bdf8",
   "Jetpack Compose": "#4ade80", Retrofit: "#fbbf24", TypeScript: "#60a5fa", React: "#38bdf8", Vite: "#a78bfa",
   "Node.js": "#4ade80", "Vanilla JS": "#fbbf24", Canvas: "#f472b6", Thymeleaf: "#4ade80", "Spring Security": "#2dd4bf",
-  Maven: "#f87171", Swing: "#fb923c", OOP: "#a78bfa", "C++": "#60a5fa", Vitest: "#fbbf24", "GitHub Pages": "#cbd5e1", Ktor: "#a78bfa", Room: "#2dd4bf", CRDT: "#fbbf24",
+  Maven: "#f87171", Swing: "#fb923c", OOP: "#a78bfa", "C++": "#60a5fa", Vitest: "#fbbf24", "GitHub Pages": "#cbd5e1", Ktor: "#a78bfa", Room: "#2dd4bf", CRDT: "#fbbf24", "Kotlin Multiplatform": "#f472b6", "Kotlin/JS": "#fbbf24", BM25: "#60a5fa",
 };
 const lighten = { "#a78bfa": "#c4b5fd", "#fb923c": "#fdba74", "#4ade80": "#86efac", "#60a5fa": "#93c5fd", "#38bdf8": "#7dd3fc",
   "#fbbf24": "#fcd34d", "#f472b6": "#f9a8d4", "#2dd4bf": "#5eead4", "#f87171": "#fca5a5", "#cbd5e1": "#e2e8f0" };
@@ -49,11 +49,17 @@ const MOTIFS = {
   coins: a => `<g fill="${a}">${[0, 1, 2, 3].map(i => `<ellipse cx="40" cy="${54 - i * 10}" rx="22" ry="6" opacity="${0.4 + i * 0.18}"><animate attributeName="opacity" values="0;${0.4 + i * 0.18}" dur="1.6s" begin="${i * 0.25}s" fill="freeze"/></ellipse>`).join("")}</g>`,
   // Two phones exchanging changes through a cloud.
   sync: a => `<g fill="none" stroke="${a}" stroke-width="2"><rect x="0" y="14" width="24" height="40" rx="5"/><rect x="66" y="14" width="24" height="40" rx="5"/><path d="M28 26h34M62 42h-34" stroke-dasharray="4 4"><animate attributeName="stroke-dashoffset" values="16;0" dur="1s" repeatCount="indefinite"/></path></g><g fill="${a}"><rect x="6" y="24" width="12" height="3" rx="1.5"/><rect x="6" y="32" width="9" height="3" rx="1.5"/><rect x="72" y="24" width="12" height="3" rx="1.5"/><rect x="72" y="32" width="9" height="3" rx="1.5"><animate attributeName="opacity" values="0;1" dur="2s" repeatCount="indefinite"/></rect></g>`,
+  // A magnifying glass sweeping over lines of text, one line highlighted.
+  search: a => `<g fill="${a}">${[0, 1, 2, 3].map(i => `<rect x="0" y="${4 + i * 13}" width="${[70, 56, 64, 44][i]}" height="5" rx="2.5" opacity="${i === 1 ? ".95" : ".3"}"/>`).join("")}</g><g fill="none" stroke="${a}" stroke-width="3"><circle cx="58" cy="26" r="13"/><path d="M68 36l12 12" stroke-linecap="round"/><animateTransform attributeName="transform" type="translate" values="-30 0;0 0;-30 0" dur="4s" repeatCount="indefinite"/></g>`,
   // Stacked books.
   books: a => `<g fill="${a}"><rect x="10" y="40" width="64" height="12" rx="3" opacity=".9"/><rect x="16" y="26" width="56" height="12" rx="3" opacity=".7"/><rect x="6" y="12" width="60" height="12" rx="3" opacity=".5"><animateTransform attributeName="transform" type="translate" values="0 -6;0 0" dur="1.2s" fill="freeze"/></rect></g>`,
 };
 
 const cards = [
+  { file: "project-sift.svg", title: "Sift", emoji: "🔎", label: "SEARCH ENGINE · FROM SCRATCH", accent: "#f472b6", edge2: "#fbbf24", bg0: "#1c0a16",
+    desc: "A full-text search engine written from scratch in Kotlin Multiplatform: BM25 ranking, Porter stemming, typo tolerance, phrases and search-as-you-type. Runs on the JVM as a REST API and in the browser as a live demo.",
+    bullets: ["BM25, Porter stemmer, phrases, snippets", "Typo tolerance via trie + edit distance", "Same engine on JVM + in-browser · ~0.4 ms p50"],
+    pills: ["Kotlin Multiplatform", "Kotlin/JS", "Ktor", "BM25"], motif: "search" },
   { file: "project-tandem.svg", title: "Tandem", emoji: "🔁", label: "ANDROID · OFFLINE SYNC", accent: "#2dd4bf", edge2: "#a78bfa", bg0: "#061a18",
     desc: "Shared lists that work offline and merge without conflicts: an Android app in Kotlin, Compose, Room and WorkManager plus a Ktor and PostgreSQL sync server, built on a CRDT with hybrid logical clocks.",
     bullets: ["Edit offline on two phones, merge with no conflicts", "CRDT + hybrid logical clocks + fractional index", "Convergence property tests · Postgres CI · APK"],
