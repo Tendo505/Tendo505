@@ -6,17 +6,17 @@
   <img alt="Based in Selangor, Malaysia" src="https://img.shields.io/badge/Based_in-Selangor,_MY-60a5fa?style=for-the-badge&amp;logo=googlemaps&amp;logoColor=white&amp;labelColor=0b1220" />
 </p>
 
-<img src="assets/stats.svg" alt="Dean's List, Faculty of ICT, Semester 1 2025/2026 · 3 projects across Android and web · Available for a 3-month internship, 30 Nov 2026 – 19 Feb 2027" width="100%" />
+<img src="assets/stats.svg" alt="Dean's List, Faculty of ICT, Semester 1 2025/2026 · 11 projects across Android, backend, web and systems · Available for a 3-month internship, 30 Nov 2026 – 19 Feb 2027" width="100%" />
 
 ## ⚡ About me
 
-I'm **Amirul Harith**, a **Computer Science student** who likes building the *whole* path of an app — the **Android screen** in your hand, the **Laravel API** behind it and the **database** that keeps it all consistent.
+I'm **Amirul Harith**, a **Computer Science student** who likes building the *whole* path of an app — the **Android screen** in your hand, the **API** behind it (Laravel or Spring Boot) and the **database** that keeps it all consistent. I care about the parts that are easy to get wrong: concurrency, money math, offline use and accessibility, and I write tests that prove them.
 
 ```kotlin
 object AmirulHarith {
     val role        = "Computer Science student · Android & backend developer"
     val award       = "Dean's List — Faculty of ICT, Semester 1, Session 2025/2026"
-    val stack       = listOf("Kotlin", "Java", "Laravel", "PostgreSQL", "REST APIs", "Retrofit")
+    val stack       = listOf("Kotlin", "Java", "Jetpack Compose", "Spring Boot", "Laravel", "PostgreSQL", "TypeScript")
     val lookingFor  = "Software engineering, backend or mobile development internship"
     val available   = "30 Nov 2026 → 19 Feb 2027 (3-month industrial training)"
     val speaks      = listOf("Malay (native)", "English (working proficiency)")
@@ -25,26 +25,54 @@ object AmirulHarith {
 
 ## 🚀 Featured builds
 
+<a href="https://github.com/Tendo505/roadpulse"><img src="assets/project-roadpulse.svg" alt="RoadPulse — community-powered navigation for Android with Kotlin, Jetpack Compose, MapLibre, Spring Boot and PostgreSQL" width="100%" /></a>
+
 <a href="https://github.com/Tendo505/PawCare"><img src="assets/project-pawcare.svg" alt="PawCare — full-stack pet management app with Kotlin, Laravel, PostgreSQL, REST APIs and Retrofit" width="100%" /></a>
 
 <p>
-  <a href="https://github.com/Tendo505/PhoneMarketTracker"><img src="assets/project-phonemarket.svg" alt="Phone Market Tracker — Android sales and inventory app with Java, XML and SQLite" width="49%" /></a>
-  <img src="assets/project-studentclub.svg" alt="Student Club Management System — group web project in PHP and MySQL" width="49%" />
+  <a href="https://github.com/Tendo505/seatlock"><img src="assets/project-seatlock.svg" alt="SeatLock — ticket booking API in Kotlin, Spring Boot and PostgreSQL that never oversells under concurrent load" width="49%" /></a>
+  <a href="https://github.com/Tendo505/seatlock-android"><img src="assets/project-seatlock-android.svg" alt="SeatLock Android — Jetpack Compose ticket booking app with live seat holds" width="49%" /></a>
 </p>
+<p>
+  <a href="https://github.com/Tendo505/quill"><img src="assets/project-quill.svg" alt="Quill — a scripting language with a Pratt parser and interpreter in TypeScript, with a browser playground" width="49%" /></a>
+  <a href="https://github.com/Tendo505/tally"><img src="assets/project-tally.svg" alt="Tally — React and TypeScript expense splitter with a property-tested settle-up algorithm" width="49%" /></a>
+</p>
+<p>
+  <a href="https://github.com/Tendo505/emberkv"><img src="assets/project-emberkv.svg" alt="emberkv — a Redis-compatible database written from scratch in Node.js" width="49%" /></a>
+  <a href="https://github.com/Tendo505/typeflow"><img src="assets/project-typeflow.svg" alt="TypeFlow — typing speed test in vanilla JavaScript with a canvas chart" width="49%" /></a>
+</p>
+<p>
+  <a href="https://github.com/Tendo505/PhoneMarketTracker"><img src="assets/project-phonemarket.svg" alt="Phone Market Tracker — Android sales and inventory app with Java, XML and SQLite" width="49%" /></a>
+  <a href="https://github.com/Tendo505/banking-app"><img src="assets/project-bankingapp.svg" alt="Banking App — Spring Boot and Thymeleaf banking web app with Spring Security" width="49%" /></a>
+</p>
+<p>
+  <img src="assets/project-studentclub.svg" alt="Student Club Management System — group web project in PHP and MySQL" width="49%" />
+  <a href="https://github.com/Tendo505/java"><img src="assets/project-java-practice.svg" alt="Java Practice — my Java learning journey, around 140 exercises organised by topic" width="49%" /></a>
+</p>
+
+### 🌐 Try them live
+
+| Project | Link |
+| :--- | :--- |
+| 🧭 RoadPulse (Android) | [Download the APK](https://github.com/Tendo505/roadpulse/releases/latest) |
+| 📲 SeatLock (Android) | [Download the APK](https://github.com/Tendo505/seatlock-android/releases/latest) |
+| 🪶 Quill playground | [tendo505.github.io/quill](https://tendo505.github.io/quill/) |
+| 💸 Tally | [tendo505.github.io/tally](https://tendo505.github.io/tally/) |
+| ⌨️ TypeFlow | [tendo505.github.io/typeflow](https://tendo505.github.io/typeflow/) |
 
 ## 🛠️ Tech arsenal
 
 <p align="center">
-  <a href="https://github.com/tandpfun/skill-icons"><img src="https://skillicons.dev/icons?i=kotlin,java,cpp,php,js,html,css,laravel,androidstudio,postgres,mysql,sqlite,git,github,postman,vscode&amp;perline=8&amp;theme=dark" alt="Kotlin, Java, C++, PHP, JavaScript, HTML, CSS, Laravel, Android Studio, PostgreSQL, MySQL, SQLite, Git, GitHub, Postman and VS Code" /></a>
+  <a href="https://github.com/tandpfun/skill-icons"><img src="https://skillicons.dev/icons?i=kotlin,java,ts,js,php,cpp,html,css,androidstudio,spring,laravel,react,nodejs,postgres,mysql,sqlite,docker,gradle,git,github,githubactions,postman,vscode,vite&amp;perline=8&amp;theme=dark" alt="Kotlin, Java, TypeScript, JavaScript, PHP, C++, HTML, CSS, Android Studio, Spring, Laravel, React, Node.js, PostgreSQL, MySQL, SQLite, Docker, Gradle, Git, GitHub, GitHub Actions, Postman, VS Code and Vite" /></a>
 </p>
 
 | | |
 | :--- | :--- |
-| 📱 **Mobile** | Kotlin · Java · Android Studio · XML layouts · Retrofit |
-| ⚙️ **Backend** | Laravel · REST APIs · MVC architecture · CRUD services · PHP |
+| 📱 **Mobile** | Kotlin · Java · Jetpack Compose · XML layouts · Retrofit · MapLibre · SQLite · Robolectric |
+| ⚙️ **Backend** | Spring Boot · Laravel · Node.js · REST APIs · MVC · Flyway · concurrency-safe SQL |
 | 🗄️ **Databases** | PostgreSQL · MySQL · SQLite · Microsoft Access · pgAdmin · relational design |
-| 🌐 **Web** | JavaScript · HTML · CSS |
-| 🧰 **Tools** | Git · GitHub · Postman · XAMPP · VS Code |
+| 🌐 **Web** | TypeScript · React · JavaScript · Vite · HTML · CSS |
+| 🧰 **Tools** | Git · GitHub Actions (CI/CD) · Docker · Gradle · Postman · XAMPP · VS Code |
 
 ## 📊 Languages in my public code
 

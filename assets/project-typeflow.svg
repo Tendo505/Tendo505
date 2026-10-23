@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="290" viewBox="0 0 470 290" role="img" aria-labelledby="title desc">
+<title id="title">TypeFlow</title>
+<desc id="desc">A fast typing speed test with live WPM, accuracy, consistency and a per-second chart drawn on canvas. Vanilla JavaScript with zero dependencies, unit tested and deployed to GitHub Pages.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#1a0f0a"/><stop offset=".5" stop-color="#0d1728"/><stop offset="1" stop-color="#10233d"/></linearGradient>
+  <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#fb923c"/><stop offset=".5" stop-color="#fbbf24"/><stop offset="1" stop-color="#fb923c"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;0 0" dur="5s" repeatCount="indefinite"/></linearGradient>
+</defs>
+<style>
+  .t{font-family:'Segoe UI',Inter,Arial,sans-serif}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="1" y="1" width="468" height="288" rx="20" fill="url(#bg)"/>
+<rect x="1.25" y="1.25" width="467.5" height="287.5" rx="19.75" fill="none" stroke="url(#edge)" stroke-opacity=".8" stroke-width="2"/>
+<g class="t">
+  <text x="28" y="42" fill="#fb923c" font-size="11" font-weight="700" letter-spacing="2.5">WEB · FRONTEND</text>
+  <text x="28" y="78" fill="#f8fafc" font-size="25" font-weight="800">⌨️ TypeFlow</text>
+  <g font-size="13.5" fill="#cbd5e1">
+    <text x="28" y="110"><tspan fill="#fb923c">▸</tspan> Live WPM, accuracy and consistency</text>
+    <text x="28" y="134"><tspan fill="#fb923c">▸</tspan> Canvas chart with zero dependencies</text>
+    <text x="28" y="158"><tspan fill="#fb923c">▸</tspan> Unit-tested engine · live on GitHub Pages</text>
+  </g>
+  <g font-size="12" font-weight="700">
+    <rect x="28" y="226" width="95" height="24" rx="12" fill="#fbbf24" fill-opacity=".15" stroke="#fbbf24" stroke-opacity=".55"/><text x="75.5" y="242" fill="#fcd34d" text-anchor="middle">Vanilla JS</text>
+    <rect x="129" y="226" width="67" height="24" rx="12" fill="#f472b6" fill-opacity=".15" stroke="#f472b6" stroke-opacity=".55"/><text x="162.5" y="242" fill="#f9a8d4" text-anchor="middle">Canvas</text>
+    <rect x="202" y="226" width="109" height="24" rx="12" fill="#cbd5e1" fill-opacity=".15" stroke="#cbd5e1" stroke-opacity=".55"/><text x="256.5" y="242" fill="#e2e8f0" text-anchor="middle">GitHub Pages</text>
+  </g>
+  <text x="440" y="270" fill="#fb923c" font-size="12" font-weight="700" text-anchor="end">View repo →</text>
+</g>
+<g transform="translate(350 168)">
+  <g fill="#fb923c"><rect x="0" y="20" width="18" height="18" rx="4" opacity=".5"><animate attributeName="opacity" values=".5;1;.5" dur="1.2s" begin="0s" repeatCount="indefinite"/></rect><rect x="22" y="20" width="18" height="18" rx="4" opacity=".5"><animate attributeName="opacity" values=".5;1;.5" dur="1.2s" begin="0.25s" repeatCount="indefinite"/></rect><rect x="44" y="20" width="18" height="18" rx="4" opacity=".5"><animate attributeName="opacity" values=".5;1;.5" dur="1.2s" begin="0.5s" repeatCount="indefinite"/></rect><rect x="66" y="20" width="18" height="18" rx="4" opacity=".5"><animate attributeName="opacity" values=".5;1;.5" dur="1.2s" begin="0.75s" repeatCount="indefinite"/></rect><rect x="0" y="44" width="84" height="12" rx="4" opacity=".35"/></g>
+</g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="290" viewBox="0 0 470 290" role="img" aria-labelledby="title desc">
+<title id="title">Java Practice</title>
+<desc id="desc">My Java learning journey: around 140 exercises and small programs organised by topic, from loops and arrays to OOP inheritance and Swing GUI apps like a café ordering system.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#1a1405"/><stop offset=".5" stop-color="#0d1728"/><stop offset="1" stop-color="#10233d"/></linearGradient>
+  <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#fbbf24"/><stop offset=".5" stop-color="#fb923c"/><stop offset="1" stop-color="#fbbf24"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;0 0" dur="5s" repeatCount="indefinite"/></linearGradient>
+</defs>
+<style>
+  .t{font-family:'Segoe UI',Inter,Arial,sans-serif}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="1" y="1" width="468" height="288" rx="20" fill="url(#bg)"/>
+<rect x="1.25" y="1.25" width="467.5" height="287.5" rx="19.75" fill="none" stroke="url(#edge)" stroke-opacity=".8" stroke-width="2"/>
+<g class="t">
+  <text x="28" y="42" fill="#fbbf24" font-size="11" font-weight="700" letter-spacing="2.5">LEARNING JOURNEY</text>
+  <text x="28" y="78" fill="#f8fafc" font-size="25" font-weight="800">📚 Java Practice</text>
+  <g font-size="13.5" fill="#cbd5e1">
+    <text x="28" y="110"><tspan fill="#fbbf24">▸</tspan> ~140 exercises organised by topic</text>
+    <text x="28" y="134"><tspan fill="#fbbf24">▸</tspan> Loops, arrays, methods, OOP, inheritance</text>
+    <text x="28" y="158"><tspan fill="#fbbf24">▸</tspan> Swing GUI apps: café ordering, login</text>
+  </g>
+  <g font-size="12" font-weight="700">
+    <rect x="28" y="226" width="52" height="24" rx="12" fill="#fb923c" fill-opacity=".15" stroke="#fb923c" stroke-opacity=".55"/><text x="54" y="242" fill="#fdba74" text-anchor="middle">Java</text>
+    <rect x="86" y="226" width="45" height="24" rx="12" fill="#a78bfa" fill-opacity=".15" stroke="#a78bfa" stroke-opacity=".55"/><text x="108.5" y="242" fill="#c4b5fd" text-anchor="middle">OOP</text>
+    <rect x="137" y="226" width="60" height="24" rx="12" fill="#fb923c" fill-opacity=".15" stroke="#fb923c" stroke-opacity=".55"/><text x="167" y="242" fill="#fdba74" text-anchor="middle">Swing</text>
+  </g>
+  <text x="440" y="270" fill="#fbbf24" font-size="12" font-weight="700" text-anchor="end">View repo →</text>
+</g>
+<g transform="translate(350 168)">
+  <g fill="#fbbf24"><rect x="10" y="40" width="64" height="12" rx="3" opacity=".9"/><rect x="16" y="26" width="56" height="12" rx="3" opacity=".7"/><rect x="6" y="12" width="60" height="12" rx="3" opacity=".5"><animateTransform attributeName="transform" type="translate" values="0 -6;0 0" dur="1.2s" fill="freeze"/></rect></g>
+</g>
+</svg>

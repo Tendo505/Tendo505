@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="290" viewBox="0 0 470 290" role="img" aria-labelledby="title desc">
+<title id="title">SeatLock</title>
+<desc id="desc">Ticket booking REST API in Kotlin, Spring Boot and PostgreSQL that never oversells under concurrent load: atomic seat reservation, expiring holds, idempotency keys, and race-condition tests run on real PostgreSQL.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#07190f"/><stop offset=".5" stop-color="#0d1728"/><stop offset="1" stop-color="#10233d"/></linearGradient>
+  <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#4ade80"/><stop offset=".5" stop-color="#2dd4bf"/><stop offset="1" stop-color="#4ade80"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;0 0" dur="5s" repeatCount="indefinite"/></linearGradient>
+</defs>
+<style>
+  .t{font-family:'Segoe UI',Inter,Arial,sans-serif}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="1" y="1" width="468" height="288" rx="20" fill="url(#bg)"/>
+<rect x="1.25" y="1.25" width="467.5" height="287.5" rx="19.75" fill="none" stroke="url(#edge)" stroke-opacity=".8" stroke-width="2"/>
+<g class="t">
+  <text x="28" y="42" fill="#4ade80" font-size="11" font-weight="700" letter-spacing="2.5">BACKEND · CONCURRENCY</text>
+  <text x="28" y="78" fill="#f8fafc" font-size="25" font-weight="800">🎟️ SeatLock</text>
+  <g font-size="13.5" fill="#cbd5e1">
+    <text x="28" y="110"><tspan fill="#4ade80">▸</tspan> Never oversells: atomic SQL + CHECK constraints</text>
+    <text x="28" y="134"><tspan fill="#4ade80">▸</tspan> Expiring holds, idempotency keys, problem+json</text>
+    <text x="28" y="158"><tspan fill="#4ade80">▸</tspan> Race tests on real PostgreSQL · ~1,500 holds/s</text>
+  </g>
+  <g font-size="12" font-weight="700">
+    <rect x="28" y="226" width="67" height="24" rx="12" fill="#a78bfa" fill-opacity=".15" stroke="#a78bfa" stroke-opacity=".55"/><text x="61.5" y="242" fill="#c4b5fd" text-anchor="middle">Kotlin</text>
+    <rect x="101" y="226" width="102" height="24" rx="12" fill="#4ade80" fill-opacity=".15" stroke="#4ade80" stroke-opacity=".55"/><text x="152" y="242" fill="#86efac" text-anchor="middle">Spring Boot</text>
+    <rect x="209" y="226" width="95" height="24" rx="12" fill="#60a5fa" fill-opacity=".15" stroke="#60a5fa" stroke-opacity=".55"/><text x="256.5" y="242" fill="#93c5fd" text-anchor="middle">PostgreSQL</text>
+    <rect x="310" y="226" width="67" height="24" rx="12" fill="#38bdf8" fill-opacity=".15" stroke="#38bdf8" stroke-opacity=".55"/><text x="343.5" y="242" fill="#7dd3fc" text-anchor="middle">Docker</text>
+  </g>
+  <text x="440" y="270" fill="#4ade80" font-size="12" font-weight="700" text-anchor="end">View repo →</text>
+</g>
+<g transform="translate(350 168)">
+  <g fill="#4ade80"><rect x="0" y="0" width="13" height="10" rx="3" opacity=".85"><animate attributeName="opacity" values=".2;.85" dur="2.4s" begin="0s" fill="freeze"/></rect><rect x="18" y="0" width="13" height="10" rx="3" opacity=".85"><animate attributeName="opacity" values=".2;.85" dur="2.4s" begin="0.08s" fill="freeze"/></rect><rect x="36" y="0" width="13" height="10" rx="3" opacity=".85"><animate attributeName="opacity" values=".2;.85" dur="2.4s" begin="0.16s" fill="freeze"/></rect><rect x="54" y="0" width="13" height="10" rx="3" opacity=".85"><animate attributeName="opacity" values=".2;.85" dur="2.4s" begin="0.24s" fill="freeze"/></rect><rect x="72" y="0" width="13" height="10" rx="3" opacity=".85"><animate attributeName="opacity" values=".2;.85" dur="2.4s" begin="0.32s" fill="freeze"/></rect><rect x="0" y="14" width="13" height="10" rx="3" opacity=".85"><animate attributeName="opacity" values=".2;.85" dur="2.4s" begin="0.4s" fill="freeze"/></rect><rect x="18" y="14" width="13" height="10" rx="3" opacity=".85"><animate attributeName="opacity" values=".2;.85" dur="2.4s" begin="0.48s" fill="freeze"/></rect><rect x="36" y="14" width="13" height="10" rx="3" opacity=".85"><animate attributeName="opacity" values=".2;.85" dur="2.4s" begin="0.56s" fill="freeze"/></rect><rect x="54" y="14" width="13" height="10" rx="3" opacity=".85"><animate attributeName="opacity" values=".2;.85" dur="2.4s" begin="0.64s" fill="freeze"/></rect><rect x="72" y="14" width="13" height="10" rx="3" opacity=".85"><animate attributeName="opacity" values=".2;.85" dur="2.4s" begin="0.72s" fill="freeze"/></rect><rect x="0" y="28" width="13" height="10" rx="3" opacity=".85"><animate attributeName="opacity" values=".2;.85" dur="2.4s" begin="0.8s" fill="freeze"/></rect><rect x="18" y="28" width="13" height="10" rx="3" opacity=".85"><animate attributeName="opacity" values=".2;.85" dur="2.4s" begin="0.88s" fill="freeze"/></rect><rect x="36" y="28" width="13" height="10" rx="3" opacity=".85"><animate attributeName="opacity" values=".2;.85" dur="2.4s" begin="0.96s" fill="freeze"/></rect><rect x="54" y="28" width="13" height="10" rx="3" opacity=".85"><animate attributeName="opacity" values=".2;.85" dur="2.4s" begin="1.04s" fill="freeze"/></rect><rect x="72" y="28" width="13" height="10" rx="3" opacity=".85"><animate attributeName="opacity" values=".2;.85" dur="2.4s" begin="1.12s" fill="freeze"/></rect><rect x="0" y="42" width="13" height="10" rx="3" opacity=".85"><animate attributeName="opacity" values=".2;.85" dur="2.4s" begin="1.2s" fill="freeze"/></rect><rect x="18" y="42" width="13" height="10" rx="3" opacity=".85"><animate attributeName="opacity" values=".2;.85" dur="2.4s" begin="1.28s" fill="freeze"/></rect><rect x="36" y="42" width="13" height="10" rx="3" opacity=".85"><animate attributeName="opacity" values=".2;.85" dur="2.4s" begin="1.36s" fill="freeze"/></rect><rect x="54" y="42" width="13" height="10" rx="3" opacity=".85"><animate attributeName="opacity" values=".2;.85" dur="2.4s" begin="1.44s" fill="freeze"/></rect><rect x="72" y="42" width="13" height="10" rx="3" opacity=".2"><animate attributeName="opacity" values=".2;.2" dur="2.4s" begin="1.52s" fill="freeze"/></rect></g>
+</g>
+</svg>

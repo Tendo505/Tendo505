@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="290" viewBox="0 0 470 290" role="img" aria-labelledby="title desc">
+<title id="title">Tally</title>
+<desc id="desc">Expense splitter in React and TypeScript: integer-cent money math, four split modes and a property-tested settle-up algorithm that pays everyone back in at most n-1 transfers.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#08180f"/><stop offset=".5" stop-color="#0d1728"/><stop offset="1" stop-color="#10233d"/></linearGradient>
+  <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#34d399"/><stop offset=".5" stop-color="#fbbf24"/><stop offset="1" stop-color="#34d399"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;0 0" dur="5s" repeatCount="indefinite"/></linearGradient>
+</defs>
+<style>
+  .t{font-family:'Segoe UI',Inter,Arial,sans-serif}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="1" y="1" width="468" height="288" rx="20" fill="url(#bg)"/>
+<rect x="1.25" y="1.25" width="467.5" height="287.5" rx="19.75" fill="none" stroke="url(#edge)" stroke-opacity=".8" stroke-width="2"/>
+<g class="t">
+  <text x="28" y="42" fill="#34d399" font-size="11" font-weight="700" letter-spacing="2.5">WEB APP · ALGORITHMS</text>
+  <text x="28" y="78" fill="#f8fafc" font-size="25" font-weight="800">💸 Tally</text>
+  <g font-size="13.5" fill="#cbd5e1">
+    <text x="28" y="110"><tspan fill="#34d399">▸</tspan> Integer-cent math: no cent lost to rounding</text>
+    <text x="28" y="134"><tspan fill="#34d399">▸</tspan> Settle up in ≤ n−1 payments (property-tested)</text>
+    <text x="28" y="158"><tspan fill="#34d399">▸</tspan> Undo/redo, share links, offline · 83 tests</text>
+  </g>
+  <g font-size="12" font-weight="700">
+    <rect x="28" y="226" width="60" height="24" rx="12" fill="#38bdf8" fill-opacity=".15" stroke="#38bdf8" stroke-opacity=".55"/><text x="58" y="242" fill="#7dd3fc" text-anchor="middle">React</text>
+    <rect x="94" y="226" width="95" height="24" rx="12" fill="#60a5fa" fill-opacity=".15" stroke="#60a5fa" stroke-opacity=".55"/><text x="141.5" y="242" fill="#93c5fd" text-anchor="middle">TypeScript</text>
+    <rect x="195" y="226" width="67" height="24" rx="12" fill="#fbbf24" fill-opacity=".15" stroke="#fbbf24" stroke-opacity=".55"/><text x="228.5" y="242" fill="#fcd34d" text-anchor="middle">Vitest</text>
+  </g>
+  <text x="440" y="270" fill="#34d399" font-size="12" font-weight="700" text-anchor="end">View repo →</text>
+</g>
+<g transform="translate(350 168)">
+  <g fill="#34d399"><rect x="0" y="20" width="16" height="40" rx="3" opacity="0.45"><animate attributeName="height" values="40;6;40" dur="4s" begin="0s" repeatCount="indefinite"/><animate attributeName="y" values="20;54;20" dur="4s" begin="0s" repeatCount="indefinite"/></rect><rect x="22" y="34" width="16" height="26" rx="3" opacity="0.6"><animate attributeName="height" values="26;6;26" dur="4s" begin="0.2s" repeatCount="indefinite"/><animate attributeName="y" values="34;54;34" dur="4s" begin="0.2s" repeatCount="indefinite"/></rect><rect x="44" y="10" width="16" height="50" rx="3" opacity="0.75"><animate attributeName="height" values="50;6;50" dur="4s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="y" values="10;54;10" dur="4s" begin="0.4s" repeatCount="indefinite"/></rect><rect x="66" y="42" width="16" height="18" rx="3" opacity="0.8999999999999999"><animate attributeName="height" values="18;6;18" dur="4s" begin="0.6000000000000001s" repeatCount="indefinite"/><animate attributeName="y" values="42;54;42" dur="4s" begin="0.6000000000000001s" repeatCount="indefinite"/></rect></g>
+</g>
+</svg>

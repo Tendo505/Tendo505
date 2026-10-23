@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="title desc">
+<title id="title">RoadPulse</title>
+<desc id="desc">Community-powered navigation for Android built with Kotlin, Jetpack Compose, MapLibre and a Spring Boot backend on PostgreSQL. OpenStreetMap maps, turn-by-turn directions with spoken alerts, crowd-sourced road reports that merge and expire, English and Bahasa Melayu, works on any Android phone with no account.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071528"/><stop offset="1" stop-color="#10233d"/></linearGradient>
+  <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#60a5fa"/><stop offset=".33" stop-color="#2dd4bf"/><stop offset=".66" stop-color="#fb923c"/><stop offset="1" stop-color="#60a5fa"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;0 0" dur="5s" repeatCount="indefinite"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#60a5fa" stop-opacity=".32"/><stop offset="1" stop-color="#60a5fa" stop-opacity="0"/></radialGradient>
+  <clipPath id="screen"><rect x="12" y="12" width="196" height="184" rx="12"/></clipPath>
+</defs>
+<style>
+  .t{font-family:'Segoe UI',Inter,Arial,sans-serif}
+  .route{stroke-dasharray:420;stroke-dashoffset:420;animation:draw 3.2s ease-out forwards}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  .alert{animation:pulse 1.6s ease-in-out infinite}
+  @keyframes pulse{50%{opacity:.55}}
+  @media (prefers-reduced-motion:reduce){.route{animation:none;stroke-dashoffset:0}.alert{animation:none}}
+</style>
+<rect x="1" y="1" width="958" height="258" rx="22" fill="url(#bg)"/>
+<circle cx="820" cy="130" r="200" fill="url(#glow)"/>
+<rect x="1.25" y="1.25" width="957.5" height="257.5" rx="21.75" fill="none" stroke="url(#edge)" stroke-width="2.5"/>
+<g class="t">
+  <rect x="36" y="30" width="148" height="24" rx="12" fill="#60a5fa" fill-opacity=".16"/>
+  <text x="110" y="47" fill="#93c5fd" font-size="11" font-weight="700" letter-spacing="2.5" text-anchor="middle">★ FEATURED BUILD</text>
+  <text x="36" y="98" fill="#f8fafc" font-size="38" font-weight="800">🧭 RoadPulse</text>
+  <text x="36" y="126" fill="#93c5fd" font-size="15" font-weight="600">Community-powered navigation for Android, with its own Kotlin backend</text>
+  <g font-size="14" fill="#cbd5e1">
+    <text x="36" y="156"><tspan fill="#60a5fa">▸</tspan> OpenStreetMap maps, turn-by-turn directions and spoken hazard alerts</text>
+    <text x="36" y="178"><tspan fill="#60a5fa">▸</tspan> Crowd-sourced reports that merge, get voted on and expire on their own</text>
+    <text x="36" y="200"><tspan fill="#60a5fa">▸</tspan> English &amp; Bahasa Melayu · any Android phone · no account needed</text>
+  </g>
+  <g font-size="12" font-weight="700">
+    <rect x="36" y="216" width="62" height="24" rx="12" fill="#a78bfa" fill-opacity=".15" stroke="#a78bfa" stroke-opacity=".55"/><text x="67" y="232" fill="#c4b5fd" text-anchor="middle">Kotlin</text>
+    <rect x="104" y="216" width="128" height="24" rx="12" fill="#4ade80" fill-opacity=".15" stroke="#4ade80" stroke-opacity=".55"/><text x="168" y="232" fill="#86efac" text-anchor="middle">Jetpack Compose</text>
+    <rect x="238" y="216" width="78" height="24" rx="12" fill="#60a5fa" fill-opacity=".15" stroke="#60a5fa" stroke-opacity=".55"/><text x="277" y="232" fill="#93c5fd" text-anchor="middle">MapLibre</text>
+    <rect x="322" y="216" width="98" height="24" rx="12" fill="#2dd4bf" fill-opacity=".15" stroke="#2dd4bf" stroke-opacity=".55"/><text x="371" y="232" fill="#5eead4" text-anchor="middle">Spring Boot</text>
+    <rect x="426" y="216" width="90" height="24" rx="12" fill="#fbbf24" fill-opacity=".15" stroke="#fbbf24" stroke-opacity=".55"/><text x="471" y="232" fill="#fcd34d" text-anchor="middle">PostgreSQL</text>
+  </g>
+  <text x="560" y="232" fill="#60a5fa" font-size="13" font-weight="700">View repo →</text>
+</g>
+<g transform="translate(700 26)">
+  <rect width="220" height="208" rx="18" fill="#070915" stroke="#334155"/>
+  <g clip-path="url(#screen)">
+    <rect x="12" y="12" width="196" height="184" fill="#e8e4dc"/>
+    <g stroke="#fbd38d" stroke-width="7" fill="none" stroke-linecap="round">
+      <path d="M0 150 L230 120"/><path d="M60 0 L90 220"/><path d="M150 0 L170 220"/>
+    </g>
+    <g stroke="#ffffff" stroke-width="3" fill="none" opacity=".9"><path d="M0 80 L230 60"/><path d="M110 0 L120 220"/></g>
+    <path class="route" d="M40 190 L78 142 L120 136 L160 96 L168 40" fill="none" stroke="#2563eb" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="40" cy="190" r="7" fill="#2563eb" stroke="#fff" stroke-width="3"/>
+    <g class="alert"><circle cx="160" cy="96" r="10" fill="#dc2626" stroke="#fff" stroke-width="2.5"/><path d="M160 90 v7 M160 100 v1" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/></g>
+  </g>
+  <g class="t">
+    <rect x="12" y="12" width="196" height="40" rx="10" fill="#0f5132"/>
+    <path d="M30 42 V24 M24 30 l6-6 6 6" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="46" y="30" fill="#fff" font-size="14" font-weight="800">200 m</text>
+    <text x="46" y="45" fill="#d1fae5" font-size="10">Turn right onto Jalan Imbi</text>
+    <g class="alert"><rect x="12" y="58" width="196" height="24" rx="8" fill="#dc2626"/><text x="110" y="74" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">⚠ Accident ahead · 500 m</text></g>
+  </g>
+</g>
+</svg>
