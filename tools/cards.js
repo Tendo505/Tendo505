@@ -14,7 +14,7 @@ const PILL_COLORS = {
   Kotlin: "#a78bfa", Java: "#fb923c", "Spring Boot": "#4ade80", PostgreSQL: "#60a5fa", Docker: "#38bdf8",
   "Jetpack Compose": "#4ade80", Retrofit: "#fbbf24", TypeScript: "#60a5fa", React: "#38bdf8", Vite: "#a78bfa",
   "Node.js": "#4ade80", "Vanilla JS": "#fbbf24", Canvas: "#f472b6", Thymeleaf: "#4ade80", "Spring Security": "#2dd4bf",
-  Maven: "#f87171", Swing: "#fb923c", OOP: "#a78bfa", "C++": "#60a5fa", Vitest: "#fbbf24", "GitHub Pages": "#cbd5e1", Ktor: "#a78bfa", Room: "#2dd4bf", CRDT: "#fbbf24", "Kotlin Multiplatform": "#f472b6", "Kotlin/JS": "#fbbf24", BM25: "#60a5fa",
+  Maven: "#f87171", Swing: "#fb923c", OOP: "#a78bfa", "C++": "#60a5fa", Vitest: "#fbbf24", "GitHub Pages": "#cbd5e1", Ktor: "#a78bfa", Room: "#2dd4bf", CRDT: "#fbbf24", "Kotlin Multiplatform": "#f472b6", "Kotlin/JS": "#fbbf24", BM25: "#60a5fa", "Java 21": "#fb923c", "JUnit 5": "#4ade80", Raft: "#a78bfa", "Simulation testing": "#2dd4bf",
 };
 const lighten = { "#a78bfa": "#c4b5fd", "#fb923c": "#fdba74", "#4ade80": "#86efac", "#60a5fa": "#93c5fd", "#38bdf8": "#7dd3fc",
   "#fbbf24": "#fcd34d", "#f472b6": "#f9a8d4", "#2dd4bf": "#5eead4", "#f87171": "#fca5a5", "#cbd5e1": "#e2e8f0" };
@@ -51,11 +51,17 @@ const MOTIFS = {
   sync: a => `<g fill="none" stroke="${a}" stroke-width="2"><rect x="0" y="14" width="24" height="40" rx="5"/><rect x="66" y="14" width="24" height="40" rx="5"/><path d="M28 26h34M62 42h-34" stroke-dasharray="4 4"><animate attributeName="stroke-dashoffset" values="16;0" dur="1s" repeatCount="indefinite"/></path></g><g fill="${a}"><rect x="6" y="24" width="12" height="3" rx="1.5"/><rect x="6" y="32" width="9" height="3" rx="1.5"/><rect x="72" y="24" width="12" height="3" rx="1.5"/><rect x="72" y="32" width="9" height="3" rx="1.5"><animate attributeName="opacity" values="0;1" dur="2s" repeatCount="indefinite"/></rect></g>`,
   // A magnifying glass sweeping over lines of text, one line highlighted.
   search: a => `<g fill="${a}">${[0, 1, 2, 3].map(i => `<rect x="0" y="${4 + i * 13}" width="${[70, 56, 64, 44][i]}" height="5" rx="2.5" opacity="${i === 1 ? ".95" : ".3"}"/>`).join("")}</g><g fill="none" stroke="${a}" stroke-width="3"><circle cx="58" cy="26" r="13"/><path d="M68 36l12 12" stroke-linecap="round"/><animateTransform attributeName="transform" type="translate" values="-30 0;0 0;-30 0" dur="4s" repeatCount="indefinite"/></g>`,
+  // Five servers in a ring; the leader pulses heartbeats to the others.
+  cluster: a => { const pts = [0, 1, 2, 3, 4].map(i => [45 + 24 * Math.cos(-Math.PI / 2 + i * 2 * Math.PI / 5), 24 + 24 * Math.sin(-Math.PI / 2 + i * 2 * Math.PI / 5)]); return `<g stroke="${a}" stroke-opacity=".35" stroke-width="1.5">${pts.slice(1).map(([x, y]) => `<line x1="${pts[0][0]}" y1="${pts[0][1]}" x2="${x}" y2="${y}"/>`).join("")}</g>${pts.map(([x, y], i) => `<circle cx="${x}" cy="${y}" r="${i ? 6 : 8}" fill="${a}" opacity="${i ? ".55" : "1"}"/>`).join("")}${pts.slice(1).map(([x, y]) => `<circle r="2.5" fill="${a}"><animate attributeName="cx" values="${pts[0][0]};${x}" dur="1.2s" repeatCount="indefinite"/><animate attributeName="cy" values="${pts[0][1]};${y}" dur="1.2s" repeatCount="indefinite"/></circle>`).join("")}`; },
   // Stacked books.
   books: a => `<g fill="${a}"><rect x="10" y="40" width="64" height="12" rx="3" opacity=".9"/><rect x="16" y="26" width="56" height="12" rx="3" opacity=".7"/><rect x="6" y="12" width="60" height="12" rx="3" opacity=".5"><animateTransform attributeName="transform" type="translate" values="0 -6;0 0" dur="1.2s" fill="freeze"/></rect></g>`,
 };
 
 const cards = [
+  { file: "project-quorum.svg", title: "Quorum", emoji: "🗳️", label: "DISTRIBUTED SYSTEMS · JAVA", accent: "#fb923c", edge2: "#a78bfa", bg0: "#1c0f05",
+    desc: "The Raft consensus algorithm in Java 21, tested by a deterministic simulator that crashes servers, partitions the network and loses messages while checking every safety invariant and linearizability. It catches five planted Raft bugs, and a replay viewer shows the runs.",
+    bullets: ["Raft: elections, replication, crash recovery", "Deterministic simulator: 10,000 seeds in 10 s", "Checks linearizability; catches 5 planted bugs"],
+    pills: ["Java 21", "JUnit 5", "Raft", "Simulation testing"], motif: "cluster" },
   { file: "project-sift.svg", title: "Sift", emoji: "🔎", label: "SEARCH ENGINE · FROM SCRATCH", accent: "#f472b6", edge2: "#fbbf24", bg0: "#1c0a16",
     desc: "A full-text search engine written from scratch in Kotlin Multiplatform: BM25 ranking, Porter stemming, typo tolerance, phrases and search-as-you-type. Runs on the JVM as a REST API and in the browser as a live demo.",
     bullets: ["BM25, Porter stemmer, phrases, snippets", "Typo tolerance via trie + edit distance", "Same engine on JVM + in-browser · ~0.4 ms p50"],
