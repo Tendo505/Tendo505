@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="290" viewBox="0 0 470 290" role="img" aria-labelledby="title desc">
+<title id="title">Strata</title>
+<desc id="desc">An LSM-tree key-value store written from scratch in Java 21: write-ahead log, skip-list memtable, SSTables with Bloom filters, leveled compaction and crash recovery, tested against a model and by killing the writing process mid-write.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#06141f"/><stop offset=".5" stop-color="#0d1728"/><stop offset="1" stop-color="#10233d"/></linearGradient>
+  <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#38bdf8"/><stop offset=".5" stop-color="#fb923c"/><stop offset="1" stop-color="#38bdf8"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;0 0" dur="5s" repeatCount="indefinite"/></linearGradient>
+</defs>
+<style>
+  .t{font-family:'Segoe UI',Inter,Arial,sans-serif}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="1" y="1" width="468" height="288" rx="20" fill="url(#bg)"/>
+<rect x="1.25" y="1.25" width="467.5" height="287.5" rx="19.75" fill="none" stroke="url(#edge)" stroke-opacity=".8" stroke-width="2"/>
+<g class="t">
+  <text x="28" y="42" fill="#38bdf8" font-size="11" font-weight="700" letter-spacing="2.5">STORAGE ENGINE · JAVA</text>
+  <text x="28" y="78" fill="#f8fafc" font-size="25" font-weight="800">🗄️ Strata</text>
+  <g font-size="13.5" fill="#cbd5e1">
+    <text x="28" y="110"><tspan fill="#38bdf8">▸</tspan> WAL, memtable, SSTables, leveled compaction</text>
+    <text x="28" y="134"><tspan fill="#38bdf8">▸</tspan> Survives kill -9 mid-flush and mid-compaction</text>
+    <text x="28" y="158"><tspan fill="#38bdf8">▸</tspan> 130k reads/s · model-based + concurrency tests</text>
+  </g>
+  <g font-size="12" font-weight="700">
+    <rect x="28" y="226" width="74" height="24" rx="12" fill="#fb923c" fill-opacity=".15" stroke="#fb923c" stroke-opacity=".55"/><text x="65" y="242" fill="#fdba74" text-anchor="middle">Java 21</text>
+    <rect x="108" y="226" width="81" height="24" rx="12" fill="#38bdf8" fill-opacity=".15" stroke="#38bdf8" stroke-opacity=".55"/><text x="148.5" y="242" fill="#7dd3fc" text-anchor="middle">LSM tree</text>
+    <rect x="195" y="226" width="116" height="24" rx="12" fill="#a78bfa" fill-opacity=".15" stroke="#a78bfa" stroke-opacity=".55"/><text x="253" y="242" fill="#c4b5fd" text-anchor="middle">Bloom filters</text>
+    <rect x="317" y="226" width="116" height="24" rx="12" fill="#f87171" fill-opacity=".15" stroke="#f87171" stroke-opacity=".55"/><text x="375" y="242" fill="#fca5a5" text-anchor="middle">Crash testing</text>
+  </g>
+  <text x="440" y="270" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="end">View repo →</text>
+</g>
+<g transform="translate(350 168)">
+  <g fill="#38bdf8"><rect x="30" y="0" width="24" height="10" rx="3" opacity="0.45"/><rect x="18" y="18" width="48" height="10" rx="3" opacity="0.65"/><rect x="6" y="36" width="72" height="10" rx="3" opacity="0.8500000000000001"/><rect x="38" y="0" width="8" height="10" rx="2" fill="#fff" opacity=".9"><animate attributeName="y" values="0;18;36;36" keyTimes="0;.4;.8;1" dur="2.4s" repeatCount="indefinite"/></rect></g>
+</g>
+</svg>
