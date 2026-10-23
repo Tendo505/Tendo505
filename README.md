@@ -79,7 +79,7 @@ object AmirulHarith {
 <img src="assets/languages.svg" alt="Language percentages by code bytes across my public, non-fork repositories, including archived repositories" width="100%" />
 
 <!-- LANGUAGE_DATA_START -->
-**Kotlin 35.0%** · **TypeScript 17.4%** · **PHP 15.8%** · **JavaScript 15.6%** · **Java 6.4%** · **Python 5.3%** · **CSS 2.8%** · **HTML 0.8%** · **Shell 0.3%** · **C++ 0.3%** · **Dockerfile 0.2%** · **Batchfile 0.1%**
+**Kotlin 34.3%** · **Java 24.8%** · **TypeScript 11.5%** · **PHP 10.4%** · **JavaScript 10.3%** · **Python 3.4%** · **CSS 2.4%** · **HTML 2.2%** · **Shell 0.2%** · **C++ 0.2%** · **Dockerfile 0.2%** · **Batchfile 0.1%**
 <!-- LANGUAGE_DATA_END -->
 
 <sub>From GitHub's language byte counts across public, non-fork repositories (including archived coursework, excluding this profile repo). Refreshes daily.</sub>
