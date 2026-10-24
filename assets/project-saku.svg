@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="290" viewBox="0 0 470 290" role="img" aria-labelledby="title desc">
+<title id="title">Saku</title>
+<desc id="desc">An Android wallet app in Java that never loses a payment and never charges twice on a bad network: a Room outbox with idempotency keys and WorkManager retries, card-style holds, and a demo ledger so anyone can use it.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#05180f"/><stop offset=".5" stop-color="#0d1728"/><stop offset="1" stop-color="#10233d"/></linearGradient>
+  <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#4ade80"/><stop offset=".5" stop-color="#2dd4bf"/><stop offset="1" stop-color="#4ade80"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;0 0" dur="5s" repeatCount="indefinite"/></linearGradient>
+</defs>
+<style>
+  .t{font-family:'Segoe UI',Inter,Arial,sans-serif}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="1" y="1" width="468" height="288" rx="20" fill="url(#bg)"/>
+<rect x="1.25" y="1.25" width="467.5" height="287.5" rx="19.75" fill="none" stroke="url(#edge)" stroke-opacity=".8" stroke-width="2"/>
+<g class="t">
+  <text x="28" y="42" fill="#4ade80" font-size="11" font-weight="700" letter-spacing="2.5">ANDROID · JAVA</text>
+  <text x="28" y="78" fill="#f8fafc" font-size="25" font-weight="800">👛 Saku</text>
+  <g font-size="13.5" fill="#cbd5e1">
+    <text x="28" y="110"><tspan fill="#4ade80">▸</tspan> Payments queue offline, send exactly once</text>
+    <text x="28" y="134"><tspan fill="#4ade80">▸</tspan> Bad-network simulator: retried, charged once</text>
+    <text x="28" y="158"><tspan fill="#4ade80">▸</tspan> Card holds, demo ledger in-app, English/Malay</text>
+  </g>
+  <g font-size="12" font-weight="700">
+    <rect x="28" y="226" width="123" height="24" rx="12" fill="#4ade80" fill-opacity=".15" stroke="#4ade80" stroke-opacity=".55"/><text x="89.5" y="242" fill="#86efac" text-anchor="middle">Android (Java)</text>
+    <rect x="157" y="226" width="52" height="24" rx="12" fill="#2dd4bf" fill-opacity=".15" stroke="#2dd4bf" stroke-opacity=".55"/><text x="183" y="242" fill="#5eead4" text-anchor="middle">Room</text>
+    <rect x="215" y="226" width="102" height="24" rx="12" fill="#a78bfa" fill-opacity=".15" stroke="#a78bfa" stroke-opacity=".55"/><text x="266" y="242" fill="#c4b5fd" text-anchor="middle">WorkManager</text>
+    <rect x="323" y="226" width="102" height="24" rx="12" fill="#fbbf24" fill-opacity=".15" stroke="#fbbf24" stroke-opacity=".55"/><text x="374" y="242" fill="#fcd34d" text-anchor="middle">Idempotency</text>
+  </g>
+  <text x="440" y="270" fill="#4ade80" font-size="12" font-weight="700" text-anchor="end">View repo →</text>
+</g>
+<g transform="translate(350 168)">
+  <rect x="6" y="2" width="30" height="46" rx="6" fill="none" stroke="#4ade80" stroke-width="2"/><rect x="12" y="11" width="18" height="5" rx="2.5" fill="#4ade80" opacity=".6"/><rect x="12" y="20" width="12" height="5" rx="2.5" fill="#4ade80" opacity=".35"/><g stroke="#4ade80" stroke-width="2" stroke-linecap="round"><path d="M44 14h28" stroke-dasharray="3 4" opacity=".4"/><path d="M44 25h28" stroke-dasharray="3 4" opacity=".4"/><path d="M44 36h28"><animate attributeName="stroke-dashoffset" values="28;0" dur="1.4s" repeatCount="indefinite"/></path></g><path d="M75 31l4 4 8 -9" fill="none" stroke="#4ade80" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

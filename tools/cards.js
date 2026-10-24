@@ -14,7 +14,7 @@ const PILL_COLORS = {
   Kotlin: "#a78bfa", Java: "#fb923c", "Spring Boot": "#4ade80", PostgreSQL: "#60a5fa", Docker: "#38bdf8",
   "Jetpack Compose": "#4ade80", Retrofit: "#fbbf24", TypeScript: "#60a5fa", React: "#38bdf8", Vite: "#a78bfa",
   "Node.js": "#4ade80", "Vanilla JS": "#fbbf24", Canvas: "#f472b6", Thymeleaf: "#4ade80", "Spring Security": "#2dd4bf",
-  Maven: "#f87171", Swing: "#fb923c", OOP: "#a78bfa", "C++": "#60a5fa", Vitest: "#fbbf24", "GitHub Pages": "#cbd5e1", Ktor: "#a78bfa", Room: "#2dd4bf", CRDT: "#fbbf24", "Kotlin Multiplatform": "#f472b6", "Kotlin/JS": "#fbbf24", BM25: "#60a5fa", "Java 21": "#fb923c", "JUnit 5": "#4ade80", Raft: "#a78bfa", "Simulation testing": "#2dd4bf", "LSM tree": "#38bdf8", "Bloom filters": "#a78bfa", "Crash testing": "#f87171", Webhooks: "#f472b6", Idempotency: "#fbbf24",
+  Maven: "#f87171", Swing: "#fb923c", OOP: "#a78bfa", "C++": "#60a5fa", Vitest: "#fbbf24", "GitHub Pages": "#cbd5e1", Ktor: "#a78bfa", Room: "#2dd4bf", CRDT: "#fbbf24", "Kotlin Multiplatform": "#f472b6", "Kotlin/JS": "#fbbf24", BM25: "#60a5fa", "Java 21": "#fb923c", "JUnit 5": "#4ade80", Raft: "#a78bfa", "Simulation testing": "#2dd4bf", "LSM tree": "#38bdf8", "Bloom filters": "#a78bfa", "Crash testing": "#f87171", Webhooks: "#f472b6", Idempotency: "#fbbf24", "Android (Java)": "#4ade80", Room: "#2dd4bf", WorkManager: "#a78bfa",
 };
 const lighten = { "#a78bfa": "#c4b5fd", "#fb923c": "#fdba74", "#4ade80": "#86efac", "#60a5fa": "#93c5fd", "#38bdf8": "#7dd3fc",
   "#fbbf24": "#fcd34d", "#f472b6": "#f9a8d4", "#2dd4bf": "#5eead4", "#f87171": "#fca5a5", "#cbd5e1": "#e2e8f0" };
@@ -57,11 +57,17 @@ const MOTIFS = {
   levels: a => `<g fill="${a}">${[[30, 0, 24], [18, 18, 48], [6, 36, 72]].map(([x, y, w], i) => `<rect x="${x}" y="${y}" width="${w}" height="10" rx="3" opacity="${0.45 + i * 0.2}"/>`).join("")}<rect x="38" y="0" width="8" height="10" rx="2" fill="#fff" opacity=".9"><animate attributeName="y" values="0;18;36;36" keyTimes="0;.4;.8;1" dur="2.4s" repeatCount="indefinite"/></rect></g>`,
   // Double entry: a debit and a credit that always balance, with money moving between them.
   balance: a => `<g fill="${a}"><rect x="6" y="4" width="30" height="34" rx="4" opacity=".3"/><rect x="54" y="4" width="30" height="34" rx="4" opacity=".3"/><text x="21" y="27" text-anchor="middle" font-family="Consolas,monospace" font-size="16" font-weight="700" fill="#e2e8f0">−</text><text x="69" y="27" text-anchor="middle" font-family="Consolas,monospace" font-size="16" font-weight="700" fill="#e2e8f0">+</text><circle cy="21" r="3.5"><animate attributeName="cx" values="21;69" dur="1.6s" repeatCount="indefinite"/></circle><text x="45" y="52" text-anchor="middle" font-family="Consolas,monospace" font-size="11">Σ = 0</text></g>`,
+  // A phone sending a payment: dashed attempts fail, one gets through, a single tick.
+  retry: a => `<rect x="6" y="2" width="30" height="46" rx="6" fill="none" stroke="${a}" stroke-width="2"/><rect x="12" y="11" width="18" height="5" rx="2.5" fill="${a}" opacity=".6"/><rect x="12" y="20" width="12" height="5" rx="2.5" fill="${a}" opacity=".35"/><g stroke="${a}" stroke-width="2" stroke-linecap="round"><path d="M44 14h28" stroke-dasharray="3 4" opacity=".4"/><path d="M44 25h28" stroke-dasharray="3 4" opacity=".4"/><path d="M44 36h28"><animate attributeName="stroke-dashoffset" values="28;0" dur="1.4s" repeatCount="indefinite"/></path></g><path d="M75 31l4 4 8 -9" fill="none" stroke="${a}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>`,
   // Stacked books.
   books: a => `<g fill="${a}"><rect x="10" y="40" width="64" height="12" rx="3" opacity=".9"/><rect x="16" y="26" width="56" height="12" rx="3" opacity=".7"/><rect x="6" y="12" width="60" height="12" rx="3" opacity=".5"><animateTransform attributeName="transform" type="translate" values="0 -6;0 0" dur="1.2s" fill="freeze"/></rect></g>`,
 };
 
 const cards = [
+  { file: "project-saku.svg", title: "Saku", emoji: "👛", label: "ANDROID · JAVA", accent: "#4ade80", edge2: "#2dd4bf", bg0: "#05180f",
+    desc: "An Android wallet app in Java that never loses a payment and never charges twice on a bad network: a Room outbox with idempotency keys and WorkManager retries, card-style holds, and a demo ledger so anyone can use it.",
+    bullets: ["Payments queue offline, send exactly once", "Bad-network simulator: retried, charged once", "Card holds, demo ledger in-app, English/Malay"],
+    pills: ["Android (Java)", "Room", "WorkManager", "Idempotency"], motif: "retry" },
   { file: "project-ledger.svg", title: "Ledger", emoji: "🧾", label: "BACKEND · SPRING BOOT", accent: "#4ade80", edge2: "#fbbf24", bg0: "#06180d",
     desc: "A double-entry payments ledger API in Java 21 and Spring Boot: transfers that can't overdraw or deadlock, idempotency keys, card-style holds, HMAC-signed webhooks through a transactional outbox, and a self-audit, tested on PostgreSQL.",
     bullets: ["Double entry; ordered row locks, no overdrafts", "Idempotency keys: 20 racing retries pay once", "Holds, signed webhooks via outbox, self-audit"],
