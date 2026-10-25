@@ -27,7 +27,7 @@
   <g class="tile a2" transform="translate(326 0)">
     <rect x="1" y="1" width="306" height="148" rx="18" fill="url(#bg)" stroke="#1e3a5f" stroke-width="1.5"/>
     <text x="26" y="40" fill="#94a3b8" font-size="12" letter-spacing="2.5">PROJECTS BUILT</text>
-    <text x="24" y="100" fill="url(#g3)" font-size="58" font-weight="800">17</text>
+    <text x="24" y="100" fill="url(#g3)" font-size="58" font-weight="800">18</text>
     <text x="102" y="80" fill="#cbd5e1" font-size="15">Android · Backend</text>
     <text x="102" y="100" fill="#cbd5e1" font-size="15">Web · Systems</text>
     <g fill="#a78bfa"><rect x="26" y="120" width="80" height="6" rx="3"/><rect x="114" y="120" width="80" height="6" rx="3" opacity=".7"/><rect x="202" y="120" width="80" height="6" rx="3" opacity=".45"/></g>
