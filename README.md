@@ -65,19 +65,27 @@ object AmirulHarith {
   <a href="https://github.com/Tendo505/java"><img src="assets/project-java-practice.svg" alt="Java Practice — my Java learning journey, around 140 exercises organised by topic" width="49%" /></a>
 </p>
 
-### 🌐 Try them live
+### 🌐 Try them yourself
 
-| Project | Link |
+| Project | Try it |
 | :--- | :--- |
-| 🧭 RoadPulse (Android) | [Download the APK](https://github.com/Tendo505/roadpulse/releases/latest) |
+| 🗳️ Quorum: Raft, replayed | [Open in the browser](https://tendo505.github.io/quorum/) |
+| 🔎 Sift search demo | [Open in the browser](https://tendo505.github.io/sift/) |
+| 🪶 Quill playground | [Open in the browser](https://tendo505.github.io/quill/) |
+| 💸 Tally | [Open in the browser](https://tendo505.github.io/tally/) |
+| ⌨️ TypeFlow | [Open in the browser](https://tendo505.github.io/typeflow/) |
 | 👛 Saku (Android) | [Download the APK](https://github.com/Tendo505/saku/releases/latest) |
+| 🧭 RoadPulse (Android) | [Download the APK](https://github.com/Tendo505/roadpulse/releases/latest) |
 | 🔁 Tandem (Android) | [Download the APK](https://github.com/Tendo505/tandem/releases/latest) |
 | 📲 SeatLock (Android) | [Download the APK](https://github.com/Tendo505/seatlock-android/releases/latest) |
-| 🗳️ Quorum: Raft, replayed | [tendo505.github.io/quorum](https://tendo505.github.io/quorum/) |
-| 🔎 Sift search demo | [tendo505.github.io/sift](https://tendo505.github.io/sift/) |
-| 🪶 Quill playground | [tendo505.github.io/quill](https://tendo505.github.io/quill/) |
-| 💸 Tally | [tendo505.github.io/tally](https://tendo505.github.io/tally/) |
-| ⌨️ TypeFlow | [tendo505.github.io/typeflow](https://tendo505.github.io/typeflow/) |
+| 📱 Phone Market Tracker (Android) | [Download the APK](https://github.com/Tendo505/PhoneMarketTracker/releases/latest) |
+| 🐾 PawCare (Android) | [Download the APK](https://github.com/Tendo505/PawCare/releases/latest) · needs its backend running |
+| 🗄️ Simpan | [Download](https://github.com/Tendo505/simpan/releases/latest) · run `bin/simpan serve`, then connect with psql |
+| 📒 Ledger | [Download the jar](https://github.com/Tendo505/ledger/releases/latest) · `java -jar`, then open /docs |
+| 🎟️ SeatLock API | [Download the jar](https://github.com/Tendo505/seatlock/releases/latest) · `java -jar`, then open /docs |
+| 🏦 Banking App | [Download the jar](https://github.com/Tendo505/banking-app/releases/latest) · `java -jar`, then open localhost:8080 |
+| 🧱 Strata | [Download](https://github.com/Tendo505/strata/releases/latest) · run `bin/strata bench` |
+| 🔥 EmberKV | [Download](https://github.com/Tendo505/emberkv/releases/latest) · `npm install -g`, then `redis-cli ping` |
 
 ## 🛠️ Tech arsenal
 
