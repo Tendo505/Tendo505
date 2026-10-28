@@ -1,4 +1,4 @@
-<a href="mailto:amirulharith505@gmail.com"><img src="assets/header.svg" alt="Amirul Harith — Android and backend developer, open for an internship from 30 November 2026 to 19 February 2027" width="100%" /></a>
+<a href="mailto:amirulharith505@gmail.com"><img src="assets/header.svg" alt="Amirul Harith — Android and backend developer, open for an internship from 30 November 2026 to 19 February 2027" width="100%" />  </a>
 
 <p align="center">
   <a href="mailto:amirulharith505@gmail.com"><img alt="Email me" src="https://img.shields.io/badge/Email_me-amirulharith505@gmail.com-2dd4bf?style=for-the-badge&amp;logo=gmail&amp;logoColor=white&amp;labelColor=0b1220" /></a>
